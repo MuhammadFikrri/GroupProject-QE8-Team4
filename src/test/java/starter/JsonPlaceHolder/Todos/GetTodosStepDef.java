@@ -8,6 +8,7 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
 import starter.JsonPlaceHolder.TodoAPI;
+import starter.JsonPlaceHolder.Utils.JPHResponses;
 
 import java.io.File;
 
@@ -39,7 +40,7 @@ public class GetTodosStepDef
     @And("Response body page should be id {int}")
     public void responseBodyPageShouldBeId(int id)
     {
-        SerenityRest.then().body(JsonPHResponses.ID,equalTo(id));
+        SerenityRest.then().body(JPHResponses.ID,equalTo(id));
 //        SerenityRest.then().body("id", equalTo(id));
 //        int actualId = JsonPath.from(SerenityRest.then().extract().asString()).getInt("id");
 //        Assertions.assertThat(actualId).isEqualTo(id);
