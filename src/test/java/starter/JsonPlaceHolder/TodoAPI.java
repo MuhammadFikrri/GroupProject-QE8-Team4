@@ -22,13 +22,6 @@ public class TodoAPI
     {
         SerenityRest.given().pathParam("id", id);
     }
-    @Step("Post create todos")
-    public void setPostCreateTodos(File json)
-    {
-        SerenityRest.given()
-                .contentType(ContentType.JSON)
-                .body(json);
-    }
 
     @Step("Get list todos with modified parameter")
     public void setGetTodos3(int id, String title)
