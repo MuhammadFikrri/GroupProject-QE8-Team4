@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 Feature: Testing GET todos JsonPlaceHolder API
 
   @GroupProject @Positive-Case
@@ -65,4 +63,3 @@ Feature: Testing GET todos JsonPlaceHolder API
     Examples:
       | id        |
       | 1adsf1341 |
->>>>>>> Stashed changes
