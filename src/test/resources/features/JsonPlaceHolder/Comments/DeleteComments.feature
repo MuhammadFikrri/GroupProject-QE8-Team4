@@ -10,7 +10,7 @@ Feature: Testing DELETE comments JsonPlaceHolder
       | 1   |
       | 400 |
 
-  @GroupProject @Negative-Case-Case
+  @GroupProject @Negative-Case
   Scenario Outline: DELETE Comments with unregistered parameter id
     Given Delete comments with valid parameter <id>
     When Send request delete comments
@@ -20,7 +20,7 @@ Feature: Testing DELETE comments JsonPlaceHolder
       | 600 |
       | 900 |
 
-  @GroupProject @Negative-Case-Case
+  @GroupProject @Negative-Case
   Scenario Outline: DELETE Comments with invalid parameter id
     Given Delete comments with invalid parameter "<id>"
     When Send request delete comments
