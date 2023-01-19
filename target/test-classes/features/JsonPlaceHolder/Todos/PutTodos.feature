@@ -84,7 +84,6 @@ Feature: Testing PUT Todos JsonPlaceHolder API
     Given Put update todos with invalid id "<id>" as string
     When  Send request put update todos with invalid id as string
     Then Should return status code 500 Internal Server Error
-    And Validate json schema list todos
     Examples:
       | id   |
       | 1999 |

@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: Testing GET todos JsonPlaceHolder API
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 4.467 s <<< FAILURE! - in Testing GET todos JsonPlaceHolder API
+GET todos with id 1 and get respon body page with id 1 should succes then return 200 response code(Testing GET todos JsonPlaceHolder API)  Time elapsed: 1.329 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path id doesn't match.
+Expected: <1>
+  Actual: <[1]>
+
+
+Get todos with invalid parameter id as string should failed then return 400 response code(Testing GET todos JsonPlaceHolder API)  Time elapsed: 0.749 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+GET todos without id should success then return 200 response code(Testing GET todos JsonPlaceHolder API)  Time elapsed: 0.053 s  <<< ERROR!
+java.lang.IllegalArgumentException: Invalid number of path parameters. Expected 0, was 1. Redundant path parameters are: id=1adsf1341.
+

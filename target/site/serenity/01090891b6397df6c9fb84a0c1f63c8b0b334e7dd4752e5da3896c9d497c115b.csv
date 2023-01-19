@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing GET todos JsonPlaceHolder API","GET todos with modified id should succes then return 200 response code","SUCCESS","2023-01-19T14:01:32.297+07:00[Asia/Bangkok]","0.0","1.23"
+"Testing GET todos JsonPlaceHolder API","GET todos with id 1 and get respon body page with id 1 should succes then return 200 response code","FAILURE","2023-01-19T14:01:33.538+07:00[Asia/Bangkok]","0.0","1.33"
+"Testing GET todos JsonPlaceHolder API","GET todos with modified id out of range should failed then return 404 response code","SUCCESS","2023-01-19T14:01:34.878+07:00[Asia/Bangkok]","0.0","0.72"
+"Testing GET todos JsonPlaceHolder API","Get todos with invalid parameter id as string should failed then return 400 response code","FAILURE","2023-01-19T14:01:35.6+07:00[Asia/Bangkok]","0.0","0.75"
+"Testing GET todos JsonPlaceHolder API","GET todos without id should success then return 200 response code","ERROR","2023-01-19T14:01:36.356+07:00[Asia/Bangkok]","0.0","0.05"
+"Testing GET todos JsonPlaceHolder API","GET todos with modified parameter should succes then return 200 response code","SUCCESS","2023-01-19T14:01:36.412+07:00[Asia/Bangkok]","0.0","0.17"
+"Testing GET todos JsonPlaceHolder API","Get todos with invalid id as string should failed then return 404 response code","SUCCESS","2023-01-19T14:01:36.588+07:00[Asia/Bangkok]","0.0","0.17"

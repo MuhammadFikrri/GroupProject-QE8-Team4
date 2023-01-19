@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing PUT Todos JsonPlaceHolder API","Put update user with difference userID and id should failed then return 400 response code","FAILURE","2023-01-19T14:01:41.17+07:00[Asia/Bangkok]","0.0","0.8"
+"Testing PUT Todos JsonPlaceHolder API","Put update user with blank body should failed then return 400 response code","FAILURE","2023-01-19T14:01:41.97+07:00[Asia/Bangkok]","0.0","1.71"
+"Testing PUT Todos JsonPlaceHolder API","Put update user with extra body category should failed then return 400 response code","FAILURE","2023-01-19T14:01:43.685+07:00[Asia/Bangkok]","0.0","0.7"
+"Testing PUT Todos JsonPlaceHolder API","Put update user with invalid body data type should failed then return 400 response code","FAILURE","2023-01-19T14:01:44.386+07:00[Asia/Bangkok]","0.0","0.7"
+"Testing PUT Todos JsonPlaceHolder API","Put update user with invalid body category should failed then return 400 response code","FAILURE","2023-01-19T14:01:45.092+07:00[Asia/Bangkok]","0.0","0.72"
+"Testing PUT Todos JsonPlaceHolder API","Put update user with unregistered id should failed then return 500 response code","SUCCESS","2023-01-19T14:01:45.817+07:00[Asia/Bangkok]","0.0","1.09"
+"Testing PUT Todos JsonPlaceHolder API","Put update user with invalid id as string should failed then return 500 response code","SUCCESS","2023-01-19T14:01:46.917+07:00[Asia/Bangkok]","0.0","0.68"
