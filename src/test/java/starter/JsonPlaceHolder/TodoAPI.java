@@ -14,6 +14,7 @@ public class TodoAPI
     public static String GET_TODOS_2 = Constant.BASE_URL + "/todos/{id}";
     public static String GET_TODOS_3 = Constant.BASE_URL + "/todos/?id={id}&title={title}";
     public static String POST_TODOS = Constant.BASE_URL + "/todos";
+    public static String PUT_TODOS = Constant.BASE_URL + "/todos/";
     public static String DELETE_TODOS = Constant.BASE_URL+"/todos/{id}";
     public static String PUT_UPDATE_TODOS = Constant.BASE_URL+"/todos/{id}";
 
@@ -60,6 +61,14 @@ public class TodoAPI
                 .body(json);
     }
 
+    @Step("Put update todos with string")
+    public void setPutUpdateTodosWithString(String id, File json)
+    {
+        SerenityRest.given()
+                .pathParam("id",id)
+                .contentType(ContentType.JSON)
+                .body(json);
+    }
     @Step("Get list todos invalid")
     public void getListTodosInvalid(String id)
     {

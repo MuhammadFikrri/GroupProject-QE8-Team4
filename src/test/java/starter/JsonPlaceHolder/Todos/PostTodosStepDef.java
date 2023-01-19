@@ -47,4 +47,43 @@ public class PostTodosStepDef
     {
         SerenityRest.when().post(TodoAPI.POST_CREATE_TODOS);
     }
+
+    @Given("Post create todos with extra body category json")
+    public void postCreateTodosWithExtraBofyCategoryJson()
+    {
+        File json = new File(Constant.TODO_JSON_REQUEST+"/ExtraBodyTodos.json");
+        todoAPI.setPostTodos(json);
+    }
+
+    @When("Send request post todos with extra body category json")
+    public void sendRequestPostTodosWithExtraBofyCategoryJson()
+    {
+        SerenityRest.when().post(TodoAPI.POST_CREATE_TODOS);
+    }
+
+    @Given("Post create todos with invalid body data type  json")
+    public void postCreateTodosWithBodyDataTypeJson()
+    {
+        File json = new File(Constant.TODO_JSON_REQUEST+"/InvalidDataTypeTodos.json");
+        todoAPI.setPostTodos(json);
+    }
+
+    @When("Send request post todos with invalid body data type json")
+    public void sendRequestPostTodosWithInvalidBodyDataTypeJson()
+    {
+        SerenityRest.when().post(TodoAPI.POST_CREATE_TODOS);
+    }
+
+    @Given("Post create todos with invalid body category json")
+    public void postCreateTodosWithInvalidBodyCategoryJson()
+    {
+        File json = new File(Constant.TODO_JSON_REQUEST+"/InvalidBodyCategoryTodos.json");
+        todoAPI.setPostTodos(json);
+    }
+
+    @When("Send request post todos with invalid body category json")
+    public void sendRequestPostTodosWithInvalidBodyCategoryJson()
+    {
+        SerenityRest.when().post(TodoAPI.POST_CREATE_TODOS);
+    }
 }
