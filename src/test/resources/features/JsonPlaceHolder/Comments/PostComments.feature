@@ -11,7 +11,7 @@ Feature: Testing POST comments JsonPlaceHolder
       | postId | name |  | email             | body         |
       | 1      | aku  |  | emailku@gmail.com | hanya ngetes |
 
-  @GroupProject @Negative-Case-Case
+  @GroupProject @Negative-Case
   Scenario Outline: POST comments with invalid json
     Given Post comments with invalid json
     When Send request post comments
