@@ -11,7 +11,7 @@ Feature: Testing PUT comments JsonPlaceHolder
       | postId | name |  | email             | body         |
       | 1      | aku  |  | emailku@gmail.com | hanya ngetes |
 
-  @GroupProject @Negative-Case-Case
+  @GroupProject @Negative-Case
   Scenario Outline: PUT comments with invalid json
     Given Put comments with invalid json with id 1
     When Send request put comments
