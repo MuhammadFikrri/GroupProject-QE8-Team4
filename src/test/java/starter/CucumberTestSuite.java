@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         tags = "@Tugas",
         plugin = {"pretty"},
-        features = "classpath:features/Reqres"
+        features = "classpath:features/JsonPlaceHolder"
 )
 public class CucumberTestSuite {}
