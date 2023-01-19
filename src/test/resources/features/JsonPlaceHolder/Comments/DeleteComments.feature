@@ -1,6 +1,6 @@
 Feature: Testing DELETE comments JsonPlaceHolder
 
-  @GroupProject @Positive-Cases
+  @GroupProject @Positive-Case
   Scenario Outline: DELETE Comments with valid parameter
     Given Delete comments with valid parameter <id>
     When Send request delete comments
