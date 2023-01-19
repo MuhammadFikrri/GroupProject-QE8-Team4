@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Testing GET todos JsonPlaceHolder API","type":"feature","href":"f9eb30b50388753abf4da237b3268dc76abc0a5cdc6c576ea6fee5ab85c891cb.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e7 scenarios\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Testing GET todos JsonPlaceHolder API","type":"feature","href":"f9eb30b50388753abf4da237b3268dc76abc0a5cdc6c576ea6fee5ab85c891cb.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e6 scenarios\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -225,7 +225,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-01-2023 14:01</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 00:04</span>
     <br style="clear:left"/>
 </div>
 
@@ -430,37 +430,6 @@
                                                                         <tr>
                                                                             <td style="width:95%;" class="toc-title">
                                                                                 <span class="orphan-scenario-toc-entry">
-                                                                                    <a href="#8c06e554487c394e9e16eb5903fc226497bb6c61c31b2f40b1651e6f7144a120" title="View scenario details">
-                                                                                        <i class="far fa-comment-dots"></i> Scenario: GET todos without id should success then return 200 response code
-                                                                                    </a>
-                                                                                </span>
-                                                                            </td>
-                                                                            <td style="width:5%;">
-                                                                                <table>
-                                                                                    <tr>
-                                                                                        <td>
-                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                               href="2a36347385bd15f18c2eef8307ab23ea524147dd2f2899de732ac6f26ebc74f5.html"
-                                                                                               title="View test results">
-                                                                                                <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
-                                                                                                </a>
-
-
-                                                                                        </td>
-                                                                                            <td>
-                                                                                                <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                                   href="2a36347385bd15f18c2eef8307ab23ea524147dd2f2899de732ac6f26ebc74f5.html"
-                                                                                                   title="View test results">
-                                                                                                    <i class="fas fa-search-plus"></i>
-                                                                                                </a>
-                                                                                            </td>
-                                                                                    </tr>
-                                                                                </table>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width:95%;" class="toc-title">
-                                                                                <span class="orphan-scenario-toc-entry">
                                                                                     <a href="#364f51c318d79a092bb3e9014f45a89c10da53e6665a7e7534e8f2ad0c0550ad" title="View scenario details">
                                                                                         <i class="far fa-comment-dots"></i> Scenario Outline: GET todos with modified parameter should succes then return 200 response code
                                                                                     </a>
@@ -528,7 +497,7 @@
 
                                                     <h3>Scenarios</h3>
 
-                                                        <a name="6f754a51-12dc-4606-8e98-27eb1da28f8b" ></a>
+                                                        <a name="3b3e82f1-1433-4c8a-a98f-cb22e19742aa" ></a>
 
 
                                                             <div class="scenario-docs card" id="3764c47d6e43f71bdad1fd2e89486beddf7f402fa5f214cafac3281b02cac549">
@@ -613,6 +582,7 @@
                                                                         <p>Given Get todos with id {id}</p>
                                                                         <p>When Send request get list todos with selected id out of range</p>
                                                                         <p>Then Should return status code 404 Not Found</p>
+                                                                        <p>And Validate json schema lists todos</p>
                                                                     <div class="examples">
                                                                             <p><p>Examples:</p>
 <blockquote>
@@ -663,31 +633,6 @@
 </tbody>
 </table></div>
 </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="scenario-docs card" id="8c06e554487c394e9e16eb5903fc226497bb6c61c31b2f40b1651e6f7144a120">
-                                                                <div class="scenario-docs card-header error"
-                                                                     style="min-height:1.5em;">
-                                                                    <div>
-                                                            <span class="scenario-heading">
-                                                                <a href="2a36347385bd15f18c2eef8307ab23ea524147dd2f2899de732ac6f26ebc74f5.html"
-                                                                   title="View test results">Scenario: GET todos without id should success then return 200 response code</a>
-                                                            </span>
-                                                                        <span class="scenario-result-icon">
-                                                                
-
-                                                                                <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
-                                                            </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="scenario-docs card-body">
-                                                                        <p>Given Get todos without id</p>
-                                                                        <p>When Send request get list todos without id</p>
-                                                                        <p>Then Should return status code 200 ok</p>
-                                                                        <p>And Validate json schema list todos</p>
-                                                                    <div class="examples">
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -780,10 +725,10 @@
                                                 </div>
                                                 <script>
 
-                                                    var labels = ['57%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '29%', ' ', '14%', ' ', ' ', ' '];
+                                                    var labels = ['67%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '33%', ' ', ' ', ' ', ' ', ' '];
                                                     // Our series array that contains series objects or in this case series data arrays
 
-                                                    var series = [{meta: 'Passing tests (automated)', value: 4}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 2}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                    var series = [{meta: 'Passing tests (automated)', value: 4}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 2}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                     // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                     // as you saw in the previous example
@@ -827,7 +772,7 @@
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                 </td>
                                                             <td class="automated-stats">4</td>
-                                                            <td class="automated-stats">57%</td>
+                                                            <td class="automated-stats">67%</td>
                                                         </tr>
                                                         <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -863,14 +808,14 @@
                                                                                 class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                 </td>
                                                             <td class="automated-stats">2</td>
-                                                            <td class="automated-stats">29%</td>
+                                                            <td class="automated-stats">33%</td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
-                                                                    <a href="32cdf84ac727027e6fc90e7aa82a1eb9e0921e4bbd0ba309edbe306787f106d9.html"><i
-                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
+                                                                    <i
+                                                                            class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
                                                                 </td>
-                                                            <td class="automated-stats">1</td>
-                                                            <td class="automated-stats">14%</td>
+                                                            <td class="automated-stats">0</td>
+                                                            <td class="automated-stats"> </td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -881,7 +826,7 @@
                                                         </tr>
                                                         <tr class="summary-stats">
                                                             <td class="aggregate-result-count">Total</td>
-                                                            <td class="automated-stats">7</td>
+                                                            <td class="automated-stats">6</td>
                                                             <td class="automated-stats"></td>
                                                         </tr>
                                                         </tbody>
@@ -903,11 +848,11 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
+                                                            <td>5s</td>
                                                             <td>4s</td>
-                                                            <td>4s</td>
-                                                            <td>50ms</td>
+                                                            <td>673ms</td>
                                                             <td>1s</td>
-                                                            <td>630ms</td>
+                                                            <td>890ms</td>
                                                         </tr>
                                                         </tbody>
                                                     </table>
@@ -937,8 +882,8 @@
                                                                             (1 example)
                                                                     </td>
                                                                     <td>4</td>
-                                                                    <td>14:01:32</td>
-                                                                    <td>1s 234ms</td>
+                                                                    <td>00:04:41</td>
+                                                                    <td>1s 152ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -949,8 +894,8 @@
                                                                             <a href="10b72771309883775da3068f692560d465c46914fa6bbe24137871558fd28615.html">GET todos with id 1 and get respon body page with id 1 should succes then return 200 response code</a>
                                                                     </td>
                                                                     <td>5</td>
-                                                                    <td>14:01:33</td>
-                                                                    <td>1s 325ms</td>
+                                                                    <td>00:04:42</td>
+                                                                    <td>1s 382ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                                 style="display:none">FAILURE</span>
@@ -961,9 +906,9 @@
                                                                             <a href="f37881ff1c4034f51c2e4a295bc9771849b83ce31533a1371c05d0ecd12663b1.html">GET todos with modified id out of range should failed then return 404 response code</a>
                                                                             (1 example)
                                                                     </td>
-                                                                    <td>3</td>
-                                                                    <td>14:01:34</td>
-                                                                    <td>716ms</td>
+                                                                    <td>4</td>
+                                                                    <td>00:04:43</td>
+                                                                    <td>682ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -975,23 +920,11 @@
                                                                             (1 example)
                                                                     </td>
                                                                     <td>4</td>
-                                                                    <td>14:01:35</td>
-                                                                    <td>749ms</td>
+                                                                    <td>00:04:44</td>
+                                                                    <td>681ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                                 style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result ERROR">
-                                                                    <td>
-                                                                            <a href="2a36347385bd15f18c2eef8307ab23ea524147dd2f2899de732ac6f26ebc74f5.html">GET todos without id should success then return 200 response code</a>
-                                                                    </td>
-                                                                    <td>4</td>
-                                                                    <td>14:01:36</td>
-                                                                    <td>050ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                                style="display:none">ERROR</span>
                                                                     </td>
                                                                 </tr>
                                                                 <tr class="scenario-result SUCCESS">
@@ -1000,8 +933,8 @@
                                                                             (1 example)
                                                                     </td>
                                                                     <td>4</td>
-                                                                    <td>14:01:36</td>
-                                                                    <td>171ms</td>
+                                                                    <td>00:04:45</td>
+                                                                    <td>677ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -1013,8 +946,8 @@
                                                                             (1 example)
                                                                     </td>
                                                                     <td>4</td>
-                                                                    <td>14:01:36</td>
-                                                                    <td>168ms</td>
+                                                                    <td>00:04:45</td>
+                                                                    <td>770ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>

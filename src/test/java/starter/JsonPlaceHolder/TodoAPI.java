@@ -74,4 +74,10 @@ public class TodoAPI
     {
         SerenityRest.given().pathParam("id",id);
     }
+
+//    @Step("Get list todos blank")
+//    public void getListTodosBlank()
+//    {
+//        SerenityRest.given().pathParam();
+//    }
 }

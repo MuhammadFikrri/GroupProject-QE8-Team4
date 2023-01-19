@@ -8,7 +8,7 @@ Feature: Testing POST Todos JsonPlaceHolder API
     And Validate json schema lists todos
 
   @GroupProject @Negative-Case
-  Scenario Outline: POST Todos with blank parameter should failed then return 400 response code
+  Scenario: POST Todos with blank parameter should failed then return 400 response code
     Given Post create todos with blank parameter json
     When Send request post todos with blank parameter json
     Then Should return status code 400 Bad Request

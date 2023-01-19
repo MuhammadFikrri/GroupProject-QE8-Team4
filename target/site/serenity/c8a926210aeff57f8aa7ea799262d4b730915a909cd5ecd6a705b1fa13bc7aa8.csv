@@ -1,2 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Testing GET todos JsonPlaceHolder API","GET todos without id should success then return 200 response code","ERROR","2023-01-19T14:01:36.356+07:00[Asia/Bangkok]","0.0","0.05"

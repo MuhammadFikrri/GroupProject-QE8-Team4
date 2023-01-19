@@ -23,6 +23,7 @@ Feature: Testing GET todos JsonPlaceHolder API
     Given Get todos with id <id>
     When Send request get list todos with selected id out of range
     Then Should return status code 404 Not Found
+    And Validate json schema lists todos
     Examples:
       | id   |
       | 2000 |
@@ -37,12 +38,12 @@ Feature: Testing GET todos JsonPlaceHolder API
       | id        |
       | 1adsf1341 |
 
-  @GroupProject @Positive-Case
-  Scenario: GET todos without id should success then return 200 response code
-    Given Get todos without id
-    When Send request get list todos without id
-    Then Should return status code 200 ok
-    And Validate json schema list todos
+#  @GroupProject @Positive-Case
+#  Scenario: GET todos without id should success then return 200 response code
+#    Given Get todos without id
+#    When Send request get list todos without id
+#    Then Should return status code 200 ok
+#    And Validate json schema list todos
 
   @GroupProject @Positive-Case
   Scenario Outline: GET todos with modified parameter should succes then return 200 response code

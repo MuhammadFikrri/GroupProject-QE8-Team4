@@ -1,32 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: Testing PUT Todos JsonPlaceHolder API
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 7.121 s <<< FAILURE! - in Testing PUT Todos JsonPlaceHolder API
-Put update user with difference userID and id should failed then return 400 response code(Testing PUT Todos JsonPlaceHolder API)  Time elapsed: 0.794 s  <<< FAILURE!
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 7.095 s <<< FAILURE! - in Testing PUT Todos JsonPlaceHolder API
+Put update user with difference userID and id should failed then return 400 response code(Testing PUT Todos JsonPlaceHolder API)  Time elapsed: 0.789 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.
 
 
-Put update user with blank body should failed then return 400 response code(Testing PUT Todos JsonPlaceHolder API)  Time elapsed: 1.71 s  <<< FAILURE!
+Put update user with blank body should failed then return 400 response code(Testing PUT Todos JsonPlaceHolder API)  Time elapsed: 0.683 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.
 
 
-Put update user with extra body category should failed then return 400 response code(Testing PUT Todos JsonPlaceHolder API)  Time elapsed: 0.695 s  <<< FAILURE!
+Put update user with extra body category should failed then return 400 response code(Testing PUT Todos JsonPlaceHolder API)  Time elapsed: 0.708 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.
 
 
-Put update user with invalid body data type should failed then return 400 response code(Testing PUT Todos JsonPlaceHolder API)  Time elapsed: 0.7 s  <<< FAILURE!
+Put update user with invalid body data type should failed then return 400 response code(Testing PUT Todos JsonPlaceHolder API)  Time elapsed: 0.696 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.
 
 
-Put update user with invalid body category should failed then return 400 response code(Testing PUT Todos JsonPlaceHolder API)  Time elapsed: 0.72 s  <<< FAILURE!
+Put update user with invalid body category should failed then return 400 response code(Testing PUT Todos JsonPlaceHolder API)  Time elapsed: 0.707 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.

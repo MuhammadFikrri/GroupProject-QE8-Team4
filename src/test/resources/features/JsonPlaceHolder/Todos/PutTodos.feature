@@ -1,7 +1,7 @@
 Feature: Testing PUT Todos JsonPlaceHolder API
 
   @GroupProject @Positive-Case
-  Scenario Outline: Put update user with valid json should success then return 200 response code
+  Scenario Outline:Put update user with valid json should success then return 200 response code
     Given Put update todos with valid json body and id <id>
     When Send request put update todos
     Then Should return status code 200 ok
@@ -85,5 +85,5 @@ Feature: Testing PUT Todos JsonPlaceHolder API
     When  Send request put update todos with invalid id as string
     Then Should return status code 500 Internal Server Error
     Examples:
-      | id   |
-      | 1999 |
+      | id    |
+      | ASD12 |

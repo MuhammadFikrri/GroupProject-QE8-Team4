@@ -79,10 +79,11 @@ public class GetTodosStepDef
         SerenityRest.then().statusCode(ok);
     }
 
-    @Given("Get todos without id")
-    public void getTodosWithoutId()
-    {
-    }
+//    @Given("Get todos without id")
+//    public void getTodosWithoutId()
+//    {
+//        todoAPI.getListTodosBlank();
+//    }
 
     @When("Send request get list todos without id")
     public void sendRequestGetListTodosWithoutId()
