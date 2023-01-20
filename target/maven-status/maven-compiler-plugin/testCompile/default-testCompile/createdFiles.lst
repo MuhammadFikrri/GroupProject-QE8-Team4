@@ -1,0 +1,16 @@
+starter/JsonPlaceHolder/AlbumsAPI.class
+starter/CucumberTestSuite.class
+starter/JsonPlaceHolder/Utils/JPHResponses.class
+starter/JsonPlaceHolder/PostsAPI.class
+starter/JsonPlaceHolder/Posts/GeneraPostslStepDef.class
+starter/JsonPlaceHolder/Photos/GetPhotosStepDef.class
+starter/JsonPlaceHolder/PhotosAPI.class
+starter/JsonPlaceHolder/TodoAPI.class
+starter/JsonPlaceHolder/Utils/Constant.class
+starter/JsonPlaceHolder/Albums/GetAlbumsStepDef.class
+starter/JsonPlaceHolder/CommentsAPI.class
+starter/JsonPlaceHolder/Posts/PutPostsStepDef.class
+starter/JsonPlaceHolder/Posts/DeletePostsStepDef.class
+starter/JsonPlaceHolder/Posts/GetPostsStepDef.class
+starter/JsonPlaceHolder/Posts/PostPostsStepDef.class
+starter/JsonPlaceHolder/Comments/GetCommentsStepDef.class
