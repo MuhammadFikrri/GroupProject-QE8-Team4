@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing DELETE comments JsonPlaceHolder","DELETE Comments with valid parameter","SUCCESS","2023-01-19T22:46:03.6875591+07:00[Asia/Bangkok]","0.0","5.19"
+"Testing DELETE comments JsonPlaceHolder","DELETE Comments with unregistered parameter id","FAILURE","2023-01-19T22:46:08.8907567+07:00[Asia/Bangkok]","0.0","2.64"
+"Testing DELETE comments JsonPlaceHolder","DELETE Comments with invalid parameter id","FAILURE","2023-01-19T22:46:11.548144+07:00[Asia/Bangkok]","0.0","1.62"
