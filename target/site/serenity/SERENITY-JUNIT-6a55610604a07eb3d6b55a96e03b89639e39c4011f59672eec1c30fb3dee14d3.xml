@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Testing Get Posts REST API" skipped="0" tests="6" time="5.88" timestamp="2023-01-20 06:10:26"><testcase name="API GET without id"/><testcase name="API GET with valid id"/><testcase name="API GET with invalid id"/><testcase name="API GET with invalid parameter id"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Testing Get Posts REST API" skipped="0" tests="4" time="4.03" timestamp="2023-01-20 06:55:50"><testcase name="API GET without id"/><testcase name="API GET with valid id"/><testcase name="API GET with invalid id"/><testcase name="API GET with invalid parameter id"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;200&gt;.
@@ -13,5 +13,5 @@ groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
 starter.JsonPlaceHolder.Posts.GeneraPostslStepDef.shouldReturnStatusCode(GeneraPostslStepDef.java:22)&#13;
-✽.Should return status code 404(classpath:features/JsonPlaceHolder/Posts/GetPosts.feature:33)&#13;
+✽.Should return status code 404(classpath:features/JsonPlaceHolder/Posts/GetPosts.feature:31)&#13;
 </system-err></testcase></testsuite>

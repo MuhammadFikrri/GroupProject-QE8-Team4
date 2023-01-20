@@ -1,6 +1,6 @@
 Feature: Delete album
 
-  @GroupProject
+  @GroupProject @Positive-Case
   Scenario Outline: Delete users with valid id
   Given Delete albums with valid id <id>
   When Send request delete album

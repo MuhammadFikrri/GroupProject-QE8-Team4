@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="4" name="Testing GET comments JsonPlaceHolder" skipped="0" tests="9" time="8.5" timestamp="2023-01-20 06:10:03"><testcase name="GET comments with valid parameter id"/><testcase name="GET comments with invalid parameter id"><failure message="1 expectation failed.&#10;JSON path id doesn't match.&#10;Expected: abcd&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="2" name="Testing GET comments JsonPlaceHolder" skipped="0" tests="5" time="4.93" timestamp="2023-01-20 06:55:32"><testcase name="GET comments with valid parameter id"/><testcase name="GET comments with invalid parameter id"><failure message="1 expectation failed.&#10;JSON path id doesn't match.&#10;Expected: abcd&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
 JSON path id doesn't match.
 Expected: abcd
   Actual: null
@@ -17,7 +17,7 @@ groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
 io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
 starter.JsonPlaceHolder.Comments.GetCommentsStepDef.responseBodyPageShouldBe(GetCommentsStepDef.java:56)&#13;
-✽.Response body page should be "abcd"(classpath:features/JsonPlaceHolder/Comments/GetComments.feature:20)&#13;
+✽.Response body page should be "abcd"(classpath:features/JsonPlaceHolder/Comments/GetComments.feature:19)&#13;
 </system-err></testcase><testcase name="GET comments with unregistered parameter id"><failure message="1 expectation failed.&#10;JSON path id doesn't match.&#10;Expected: &lt;501&gt;&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
 JSON path id doesn't match.
 Expected: &lt;501&gt;
@@ -37,7 +37,7 @@ groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
 io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
 starter.JsonPlaceHolder.Comments.GetCommentsStepDef.responseBodyPageShouldBeId(GetCommentsStepDef.java:40)&#13;
-✽.Response body page should be 501(classpath:features/JsonPlaceHolder/Comments/GetComments.feature:32)&#13;
+✽.Response body page should be 501(classpath:features/JsonPlaceHolder/Comments/GetComments.feature:30)&#13;
 </system-err></testcase><testcase name="GET comments without parameter"><error type="net.serenitybdd.core.exceptions.UnrecognisedException"/><system-err>null&#13;
 com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2337)&#13;
 com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:710)&#13;

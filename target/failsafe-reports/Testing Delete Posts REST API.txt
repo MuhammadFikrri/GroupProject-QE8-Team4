@@ -1,26 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: Testing Delete Posts REST API
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 4.305 s <<< FAILURE! - in Testing Delete Posts REST API
-API DELETE posts with valid parameter #1(Testing Delete Posts REST API)  Time elapsed: 1.121 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.141 s <<< FAILURE! - in Testing Delete Posts REST API
+API DELETE posts with valid parameter(Testing Delete Posts REST API)  Time elapsed: 1.068 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <204> but was <200>.
 
 
-API DELETE posts with valid parameter #2(Testing Delete Posts REST API)  Time elapsed: 1.085 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <204> but was <200>.
-
-
-API DELETE posts with invalid parameter #1(Testing Delete Posts REST API)  Time elapsed: 1.033 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <404> but was <200>.
-
-
-API DELETE posts with invalid parameter #2(Testing Delete Posts REST API)  Time elapsed: 1.054 s  <<< FAILURE!
+API DELETE posts with invalid parameter(Testing Delete Posts REST API)  Time elapsed: 1.068 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <200>.

@@ -156,7 +156,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 18:10</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 18:55</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -223,7 +223,7 @@
         <div class="story-title">
             <h3 class="story-header">Scenario Outline</h3>
 
-            <div class="scenario">Given Get comments with valid parameter "&lt;id&gt;"<br>When Send request get list comments<br>Then Should return status code 404<br>And Response body page should be "&lt;id&gt;"<br>And Validate json schema list comments</div>
+            <div class="scenario">Given Get comments with valid parameter "&lt;id&gt;"<br>When Send request get list comments<br>Then Should return comments with status code 404<br>And Response body page should be "&lt;id&gt;"<br>And Validate json schema list comments</div>
 
         </div>
 
@@ -250,12 +250,6 @@
                             <td class="test-FAILURE"><a href="#0">1</a></td>
                                 <td class="test-FAILURE"><a
                                             href="#0">abcd</a>
-                                </td>
-                        </tr>
-                        <tr>
-                            <td class="test-FAILURE"><a href="#1">2</a></td>
-                                <td class="test-FAILURE"><a
-                                            href="#1">efgh</a>
                                 </td>
                         </tr>
                     </tbody>
@@ -304,7 +298,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">848ms</span></td>
+                        <td width="100"><span class="top-level-step">1s 082ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -359,7 +353,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
 
                                 </table>
@@ -390,7 +384,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">819ms</span></td>
+                        <td width="100"><span class="nested-step">1s 055ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -433,7 +427,7 @@
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Fri, 20 Jan 2023 11:10:05 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 979<br>X-Ratelimit-Reset: 1674213011<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=43200<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: MISS<br>Server-Timing: cf-q-config;dur=6.0000002122251e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=6OMZjQlzag6p6BuMasiGWgbpE3XN1xV6HNVbDc%2FfJjhjUtjGAlUz6iVmpCooPJAcnfbdbgLPHSSBnTN26RgTtkWzhj3sJlBK8irSF64bo%2BKMJcHQ0VzIVCwPH%2F67Z0NWMF7ZGYMJhaB8TEJTP4Op&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c75c92bb587e6a-LAX<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                        <pre>Date: Fri, 20 Jan 2023 11:55:34 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 984<br>X-Ratelimit-Reset: 1674215771<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=43200<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: MISS<br>Server-Timing: cf-q-config;dur=6.9999987317715e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=0L0qdXvZQ0B%2B7amVfjzH7IZ8qTw2oHsZyEMcH4HiMPRYBpnb8q2E6Vrcxzt206D1P2kR0H2DnNDudKrjMtRM1pwliKpTST4hP%2F%2BsPdg6Pd9ATsqIiYEdoFFXq0tq%2BA59dvDuhp6PzVxhSKIe0qNz&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c79f33f87829c9-LAX<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
                                         <pre>{<br>    <br>}</pre>
                                 </div>
@@ -446,7 +440,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step"></span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
 
                                 </table>
@@ -464,7 +458,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                Then Should return status code 404
+                                                Then Should return comments with status code 404
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -472,7 +466,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">004ms</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
                     <tr class="test-FAILURE">
 
@@ -494,7 +488,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">014ms</span></td>
+                        <td width="100"><span class="nested-group-step">015ms</span></td>
                     </tr>
                         <tr class="test-FAILURE">
                             <td width="40">&nbsp</td>
@@ -525,7 +519,7 @@
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)<br />io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)<br />io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:-1)<br />starter.JsonPlaceHolder.Comments.GetCommentsStepDef.responseBodyPageShouldBe(GetCommentsStepDef.java:56)<br />✽.Response body page should be "abcd"(classpath:features/JsonPlaceHolder/Comments/GetComments.feature:20)<br /></pre>
+                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)<br />io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)<br />io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:-1)<br />starter.JsonPlaceHolder.Comments.GetCommentsStepDef.responseBodyPageShouldBe(GetCommentsStepDef.java:56)<br />✽.Response body page should be "abcd"(classpath:features/JsonPlaceHolder/Comments/GetComments.feature:19)<br /></pre>
                     </div>
 
                 </div>
@@ -560,291 +554,10 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-FAILURE">
-
-                        <td width="50" class="step-icon">
-                            <a name="1"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                                   style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1 failure-icon"
-                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
-                                </a>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                                   style="display:block;">
-                                    <span class="top-level-step">
-                                                2: GET comments with invalid parameter id ({id=efgh})
-                                        </span>
-                                </a>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">1s 060ms</span></td>
-                    </tr>
-                        <tr>
-                            <td colspan="5">
-                                <table id="stepSection1" class="step-table-nested" style="display:none;">
-                    <tr class="test-SUCCESS">
-
-                        <td width="70" class="step-icon">
-                            <a name="1-0"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
-                                   style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1-0 success-icon"
-                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
-                                </a>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
-                                   style="display:block;">
-                                    <span class="nested-step">
-                                                Given Get comments with valid parameter "efgh"
-                                        </span>
-                                </a>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">004ms</span></td>
-                    </tr>
-                        <tr>
-                            <td colspan="5">
-                                <table id="stepSection1-0" class="step-table-nested" style="display:none;">
-                    <tr class="test-SUCCESS">
-
-                        <td width="90" class="step-icon">
-                            <a name="1-0-0"></a>
-                                <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                Get list comments invalid id
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step"></span></td>
-                    </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-                    <tr class="test-SUCCESS">
-
-                        <td width="70" class="step-icon">
-                            <a name="1-1"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-1')"
-                                   style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1-1 success-icon"
-                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
-                                </a>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-1')"
-                                   style="display:block;">
-                                    <span class="nested-step">
-                                                When Send request get list comments
-                                        </span>
-                                </a>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">1s 029ms</span></td>
-                    </tr>
-                        <tr>
-                            <td colspan="5">
-                                <table id="stepSection1-1" class="step-table-nested" style="display:none;">
-                    <tr class="test-SUCCESS">
-
-                        <td width="90" class="step-icon">
-                            <a name="1-1-0"></a>
-                                <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                GET https://jsonplaceholder.typicode.com/comments/efgh
-                                        </span>
-                                <span class="evidence">
-                                        <span class="piece-of-evidence">
-                    <span>
-                        <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
-                                data-target="#restModal-REST-13">
-                            REST Query
-                        </button>
-                    </span>
-                    <!-- Modal -->
-                    <div class="rest-query-details">
-                        <div class="collapse multi-collapse" id="restModal-REST-13">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4>Response</h4>
-                                        <p>URL: https://jsonplaceholder.typicode.com/comments/efgh</p>
-                                        <p>Status code: 404</p>
-                                        <p>Content Type: null</p>
-                                        <h4>Request Headers</h4>
-                                        <pre>Accept=*/*</pre>
-                                        <h4>Content Body</h4>
-                                        <pre></pre>
-                                        <h4>Request Cookies</h4>
-                                        <pre></pre>
-                                        <h4>Response Headers</h4>
-                                        <pre>Date: Fri, 20 Jan 2023 11:10:06 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 978<br>X-Ratelimit-Reset: 1674213011<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=43200<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: MISS<br>Server-Timing: cf-q-config;dur=6.0000002122251e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=WgRLfHrdtxIDRUD3VRVsLdDMqs0r60clk%2Be%2BB5%2Fe8WKDehNEh7H6ABSUWEgaGEg0Vv57OR%2FKfhg7vBzRwMMzKLAQdYmsW8v4aYE9Z430Ovvgx45D1XoP0CPQPqgNP76LMrJu64YlUGkMFiBKRxDz&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c75c996d1d2f46-LAX<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
-                                    <h4>Response Body</h4>
-                                        <pre>{<br>    <br>}</pre>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                                        </span>
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step"></span></td>
-                    </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-                    <tr class="test-SUCCESS">
-
-                        <td width="70" class="step-icon">
-                            <a name="1-2"></a>
-                                <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                Then Should return status code 404
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">003ms</span></td>
-                    </tr>
-                    <tr class="test-FAILURE">
-
-                        <td width="70" class="step-icon">
-                            <a name="1-3"></a>
-                                <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                And Response body page should be "efgh"
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">017ms</span></td>
-                    </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>JSON path id doesn&#39;t match.<br>Expected: efgh<br>  Actual: null<br></span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-15""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-15">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)<br />io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)<br />io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:-1)<br />starter.JsonPlaceHolder.Comments.GetCommentsStepDef.responseBodyPageShouldBe(GetCommentsStepDef.java:56)<br />✽.Response body page should be "efgh"(classpath:features/JsonPlaceHolder/Comments/GetComments.feature:20)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
-                    <tr class="test-SKIPPED">
-
-                        <td width="70" class="step-icon">
-                            <a name="1-4"></a>
-                                <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                And Validate json schema list comments
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">002ms</span></td>
-                    </tr>
-
-                                </table>
-                            </td>
-                        </tr>
                 <tr class="test-FAILURE">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>1.92s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1.09s</em></span></td>
                 </tr>
 
             </table>

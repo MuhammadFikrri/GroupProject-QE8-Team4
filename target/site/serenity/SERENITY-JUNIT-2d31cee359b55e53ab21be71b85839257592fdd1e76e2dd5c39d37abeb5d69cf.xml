@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="Put update albums" skipped="0" tests="5" time="6.13" timestamp="2023-01-20 06:09:50"><testcase name="Put update album with valid parameter"/><testcase name="Put update album with invalid parameter request"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="Put update albums" skipped="0" tests="5" time="6.1" timestamp="2023-01-20 06:55:23"><testcase name="Put update album with valid parameter"/><testcase name="Put update album with invalid parameter request"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.

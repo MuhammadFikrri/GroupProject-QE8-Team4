@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Testing Delete Posts REST API" skipped="0" tests="4" time="4.3" timestamp="2023-01-20 06:10:22"><testcase name="API DELETE posts with valid parameter"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Testing Delete Posts REST API" skipped="0" tests="2" time="2.13" timestamp="2023-01-20 06:55:48"><testcase name="API DELETE posts with valid parameter"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;204&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;204&gt; but was &lt;200&gt;.
@@ -29,5 +29,5 @@ groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
 starter.JsonPlaceHolder.Posts.GeneraPostslStepDef.shouldReturnStatusCode(GeneraPostslStepDef.java:22)&#13;
-✽.Should return status code 404(classpath:features/JsonPlaceHolder/Posts/DeletePosts.feature:17)&#13;
+✽.Should return status code 404(classpath:features/JsonPlaceHolder/Posts/DeletePosts.feature:16)&#13;
 </system-err></testcase></testsuite>

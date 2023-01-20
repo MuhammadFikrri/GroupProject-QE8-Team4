@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Testing PUT comments JsonPlaceHolder" skipped="0" tests="5" time="5.43" timestamp="2023-01-20 06:10:17"><testcase name="PUT comments with valid json"/><testcase name="PUT comments with invalid json"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Testing PUT comments JsonPlaceHolder" skipped="0" tests="5" time="5.23" timestamp="2023-01-20 06:55:43"><testcase name="PUT comments with valid json"/><testcase name="PUT comments with invalid json"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;500&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;500&gt;.

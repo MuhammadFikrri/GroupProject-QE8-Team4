@@ -1,6 +1,6 @@
 Feature: Testing GET
 
-  @GroupProject
+  @GroupProject @Positive-Case
   Scenario: Get album with valid parameter
     Given Get list album with id 1
     When send request get albums

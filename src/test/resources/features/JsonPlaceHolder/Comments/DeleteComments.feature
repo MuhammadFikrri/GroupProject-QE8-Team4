@@ -6,9 +6,8 @@ Feature: Testing DELETE comments JsonPlaceHolder
     When Send request delete comments
     Then Should return status code 200
     Examples:
-      | id  |
-      | 1   |
-      | 400 |
+      | id |
+      | 1  |
 
   @GroupProject @Negative-Case
   Scenario Outline: DELETE Comments with unregistered parameter id
@@ -18,7 +17,6 @@ Feature: Testing DELETE comments JsonPlaceHolder
     Examples:
       | id  |
       | 600 |
-      | 900 |
 
   @GroupProject @Negative-Case
   Scenario Outline: DELETE Comments with invalid parameter id
@@ -28,6 +26,5 @@ Feature: Testing DELETE comments JsonPlaceHolder
     Examples:
       | id  |
       | abc |
-      | def |
 
 

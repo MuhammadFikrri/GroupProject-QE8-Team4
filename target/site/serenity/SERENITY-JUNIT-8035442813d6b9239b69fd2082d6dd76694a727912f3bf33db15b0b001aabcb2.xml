@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Testing DELETE comments JsonPlaceHolder" skipped="0" tests="6" time="6.27" timestamp="2023-01-20 06:09:56"><testcase name="DELETE Comments with valid parameter"/><testcase name="DELETE Comments with unregistered parameter id"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Testing DELETE comments JsonPlaceHolder" skipped="0" tests="3" time="3.18" timestamp="2023-01-20 06:55:29"><testcase name="DELETE Comments with valid parameter"/><testcase name="DELETE Comments with unregistered parameter id"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.
@@ -13,7 +13,7 @@ groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
 starter.JsonPlaceHolder.Posts.GeneraPostslStepDef.shouldReturnStatusCode(GeneraPostslStepDef.java:22)&#13;
-✽.Should return status code 400(classpath:features/JsonPlaceHolder/Comments/DeleteComments.feature:17)&#13;
+✽.Should return status code 400(classpath:features/JsonPlaceHolder/Comments/DeleteComments.feature:16)&#13;
 </system-err></testcase><testcase name="DELETE Comments with invalid parameter id"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
@@ -29,5 +29,5 @@ groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
 starter.JsonPlaceHolder.Posts.GeneraPostslStepDef.shouldReturnStatusCode(GeneraPostslStepDef.java:22)&#13;
-✽.Should return status code 400(classpath:features/JsonPlaceHolder/Comments/DeleteComments.feature:27)&#13;
+✽.Should return status code 400(classpath:features/JsonPlaceHolder/Comments/DeleteComments.feature:25)&#13;
 </system-err></testcase></testsuite>

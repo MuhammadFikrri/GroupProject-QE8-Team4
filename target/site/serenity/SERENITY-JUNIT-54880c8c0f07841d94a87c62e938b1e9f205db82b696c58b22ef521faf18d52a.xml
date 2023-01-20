@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Delete album" skipped="0" tests="2" time="4.99" timestamp="2023-01-20 06:09:37"><testcase name="Delete users with valid id"/><testcase name="Delete album with invalid id"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Delete album" skipped="0" tests="2" time="6.06" timestamp="2023-01-20 06:55:09"><testcase name="Delete users with valid id"/><testcase name="Delete album with invalid id"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;200&gt;.

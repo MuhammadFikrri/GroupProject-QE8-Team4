@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Testing GET" skipped="0" tests="2" time="2.67" timestamp="2023-01-20 06:09:42"><testcase name="Get album with valid parameter"/><testcase name="Get album with invalid parameter"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Testing GET" skipped="0" tests="2" time="2.36" timestamp="2023-01-20 06:55:15"><testcase name="Get album with valid parameter"/><testcase name="Get album with invalid parameter"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;200&gt;.

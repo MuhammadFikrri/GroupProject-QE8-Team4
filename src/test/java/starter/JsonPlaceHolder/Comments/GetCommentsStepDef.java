@@ -30,8 +30,8 @@ public class GetCommentsStepDef {
         SerenityRest.when().get(CommentsAPI.GET_COMMENTS);
     }
 
-    @Then("Should return status code {int}")
-    public void shouldReturnStatusCode(int statusCode) {
+    @Then("Should return comments with status code {int}")
+    public void shouldReturnCommentsWithStatusCode(int statusCode) {
         SerenityRest.then().statusCode(statusCode);
     }
 

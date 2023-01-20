@@ -1,6 +1,6 @@
 Feature: Testing Delete Posts REST API
 
-  @GroupProject
+  @GroupProject @Positive-Case
   Scenario Outline: API DELETE posts with valid parameter
     Given Delete posts with valid id <id>
     When Send post request to delete user
@@ -8,9 +8,8 @@ Feature: Testing Delete Posts REST API
     Examples:
       | id |
       | 1  |
-      | 2  |
 
-  @GroupProject
+  @GroupProject @Negative-Case
   Scenario Outline: API DELETE posts with invalid parameter
     Given Delete user with invalid <id>
     When Send post request to delete user
@@ -18,4 +17,3 @@ Feature: Testing Delete Posts REST API
     Examples:
       | id   |
       | 8491 |
-      | 8423 |

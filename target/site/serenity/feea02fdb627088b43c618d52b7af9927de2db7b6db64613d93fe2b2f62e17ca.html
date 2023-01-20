@@ -225,7 +225,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 18:10</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 18:55</span>
     <br style="clear:left"/>
 </div>
 
@@ -306,7 +306,7 @@
                                                                                     <a href="#6839e9d60da4e541520932e7eddd8bf275b9c2bb6fe5bd5c4bd7cf9ef3f5a3dd" title="View scenario details">
                                                                                         <i class="far fa-comment-dots"></i> Scenario Outline: GET comments with valid parameter id
                                                                                     </a>
-                                                                                        (2 examples)
+                                                                                        (1 example)
                                                                                 </span>
                                                                             </td>
                                                                             <td style="width:5%;">
@@ -338,7 +338,7 @@
                                                                                     <a href="#7d83983da7792b1f7787224e39b105adab6ed1d973eec92a4c037a070d42b710" title="View scenario details">
                                                                                         <i class="far fa-comment-dots"></i> Scenario Outline: GET comments with invalid parameter id
                                                                                     </a>
-                                                                                        (2 examples)
+                                                                                        (1 example)
                                                                                 </span>
                                                                             </td>
                                                                             <td style="width:5%;">
@@ -370,7 +370,7 @@
                                                                                     <a href="#d3fc122edd937d1b2e5fe38154e0f6733fff206370bee2b032f14c4fc8b3df80" title="View scenario details">
                                                                                         <i class="far fa-comment-dots"></i> Scenario Outline: GET comments with unregistered parameter id
                                                                                     </a>
-                                                                                        (2 examples)
+                                                                                        (1 example)
                                                                                 </span>
                                                                             </td>
                                                                             <td style="width:5%;">
@@ -433,7 +433,7 @@
                                                                                     <a href="#3fb43a8494931ad2279e6120b640259e594b4a434c50b77d27c0b4136a5219eb" title="View scenario details">
                                                                                         <i class="far fa-comment-dots"></i> Scenario Outline: GET comments with invalid parameter
                                                                                     </a>
-                                                                                        (2 examples)
+                                                                                        (1 example)
                                                                                 </span>
                                                                             </td>
                                                                             <td style="width:5%;">
@@ -465,7 +465,7 @@
 
                                                     <h3>Scenarios</h3>
 
-                                                        <a name="77dd93b5-1966-4ff5-a73a-b1548b134d64" ></a>
+                                                        <a name="32cde399-1dad-4413-83e7-e35575014e39" ></a>
 
 
                                                             <div class="scenario-docs card" id="6839e9d60da4e541520932e7eddd8bf275b9c2bb6fe5bd5c4bd7cf9ef3f5a3dd">
@@ -486,7 +486,7 @@
                                                                 <div class="scenario-docs card-body">
                                                                         <p>Given Get comments with valid parameter {id}</p>
                                                                         <p>When Send request get list comments</p>
-                                                                        <p>Then Should return comment status code 200</p>
+                                                                        <p>Then Should return comments with status code 200</p>
                                                                         <p>And Response body page should be {id}</p>
                                                                         <p>And Validate json schema list comments</p>
                                                                     <div class="examples">
@@ -499,7 +499,6 @@
 </thead>
 <tbody>
 <tr><td>1</td><td><a href='e1186b2c3c724818b5d572bb10b37669200c2a2f1ce5c1938aa551719d3dd804.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
-<tr><td>5</td><td><a href='e1186b2c3c724818b5d572bb10b37669200c2a2f1ce5c1938aa551719d3dd804.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
 </tbody>
 </table></div>
 </p>
@@ -525,7 +524,7 @@
                                                                 <div class="scenario-docs card-body">
                                                                         <p>Given Get comments with valid parameter &quot;{id}&quot;</p>
                                                                         <p>When Send request get list comments</p>
-                                                                        <p>Then Should return status code 404</p>
+                                                                        <p>Then Should return comments with status code 404</p>
                                                                         <p>And Response body page should be &quot;{id}&quot;</p>
                                                                         <p>And Validate json schema list comments</p>
                                                                     <div class="examples">
@@ -538,7 +537,6 @@
 </thead>
 <tbody>
 <tr><td>abcd</td><td><a href='b0e91f9f2a14cf26ff5eebfa764baccbd52b9690c270c2dfe91a5bdd194ed0c1.html#beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></td></tr>
-<tr><td>efgh</td><td><a href='b0e91f9f2a14cf26ff5eebfa764baccbd52b9690c270c2dfe91a5bdd194ed0c1.html#beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></td></tr>
 </tbody>
 </table></div>
 </p>
@@ -564,7 +562,7 @@
                                                                 <div class="scenario-docs card-body">
                                                                         <p>Given Get comments with valid parameter {id}</p>
                                                                         <p>When Send request get list comments</p>
-                                                                        <p>Then Should return status code 404</p>
+                                                                        <p>Then Should return comments with status code 404</p>
                                                                         <p>And Response body page should be {id}</p>
                                                                         <p>And Validate json schema list comments</p>
                                                                     <div class="examples">
@@ -577,7 +575,6 @@
 </thead>
 <tbody>
 <tr><td>501</td><td><a href='aa458e3b334d220ac90dc6646e78978ab7f0333f92be86254d9cb2317abdabe5.html#beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></td></tr>
-<tr><td>601</td><td><a href='aa458e3b334d220ac90dc6646e78978ab7f0333f92be86254d9cb2317abdabe5.html#beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></td></tr>
 </tbody>
 </table></div>
 </p>
@@ -603,7 +600,7 @@
                                                                 <div class="scenario-docs card-body">
                                                                         <p>Given Get comments without any parameter</p>
                                                                         <p>When Send request get list comments without param</p>
-                                                                        <p>Then Should return status code 200</p>
+                                                                        <p>Then Should return comments with status code 200</p>
                                                                         <p>And Response body page should be page</p>
                                                                         <p>And Validate json schema list comments</p>
                                                                     <div class="examples">
@@ -629,7 +626,7 @@
                                                                 <div class="scenario-docs card-body">
                                                                         <p>Given Get comments with invalid &quot;{parameter}&quot;</p>
                                                                         <p>When Send request get list comment invalid param</p>
-                                                                        <p>Then Should return status code 404</p>
+                                                                        <p>Then Should return comments with status code 404</p>
                                                                     <div class="examples">
                                                                             <p><p>Examples:</p>
 <blockquote>
@@ -640,7 +637,6 @@
 </thead>
 <tbody>
 <tr><td>abcde</td><td><a href='1fa8fea9c88089e5e3c38c39277cc916b02ecd0639b4dcaec63722f224bcccaf.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
-<tr><td>fghi</td><td><a href='1fa8fea9c88089e5e3c38c39277cc916b02ecd0639b4dcaec63722f224bcccaf.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
 </tbody>
 </table></div>
 </p>
@@ -662,10 +658,10 @@
                                                 </div>
                                                 <script>
 
-                                                    var labels = ['44%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '44%', ' ', '11%', ' ', ' ', ' '];
+                                                    var labels = ['40%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '40%', ' ', '20%', ' ', ' ', ' '];
                                                     // Our series array that contains series objects or in this case series data arrays
 
-                                                    var series = [{meta: 'Passing tests (automated)', value: 4}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 4}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                    var series = [{meta: 'Passing tests (automated)', value: 2}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 2}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                     // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                     // as you saw in the previous example
@@ -708,8 +704,8 @@
                                                                     <a href="498ac67962ab5a17092c54eca82b8001baa6ec43d912455c1e12cb66341e2ed0.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                 </td>
-                                                            <td class="automated-stats">4</td>
-                                                            <td class="automated-stats">44%</td>
+                                                            <td class="automated-stats">2</td>
+                                                            <td class="automated-stats">40%</td>
                                                         </tr>
                                                         <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -744,15 +740,15 @@
                                                                     <a href="0ecb1a9e458d60a64318fb317f8905ce0b7ad03378b3de6a7a37f2c231126f3e.html"><i
                                                                                 class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                 </td>
-                                                            <td class="automated-stats">4</td>
-                                                            <td class="automated-stats">44%</td>
+                                                            <td class="automated-stats">2</td>
+                                                            <td class="automated-stats">40%</td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <a href="8c9de3b3c6b0888405bb1352348fdaa9e260a35a0d8770f69468e061447b45b6.html"><i
                                                                                 class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
                                                                 </td>
                                                             <td class="automated-stats">1</td>
-                                                            <td class="automated-stats">11%</td>
+                                                            <td class="automated-stats">20%</td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -763,7 +759,7 @@
                                                         </tr>
                                                         <tr class="summary-stats">
                                                             <td class="aggregate-result-count">Total</td>
-                                                            <td class="automated-stats">9</td>
+                                                            <td class="automated-stats">5</td>
                                                             <td class="automated-stats"></td>
                                                         </tr>
                                                         </tbody>
@@ -785,11 +781,11 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>8s</td>
-                                                            <td>6s</td>
-                                                            <td>704ms</td>
+                                                            <td>4s</td>
+                                                            <td>3s</td>
+                                                            <td>682ms</td>
                                                             <td>1s</td>
-                                                            <td>1s</td>
+                                                            <td>986ms</td>
                                                         </tr>
                                                         </tbody>
                                                     </table>
@@ -816,11 +812,11 @@
                                                                 <tr class="scenario-result SUCCESS">
                                                                     <td>
                                                                             <a href="e1186b2c3c724818b5d572bb10b37669200c2a2f1ce5c1938aa551719d3dd804.html">GET comments with valid parameter id</a>
-                                                                            (2 examples)
+                                                                            (1 example)
                                                                     </td>
                                                                     <td>5</td>
-                                                                    <td>18:10:03</td>
-                                                                    <td>1s 459ms</td>
+                                                                    <td>18:55:32</td>
+                                                                    <td>685ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
@@ -829,11 +825,11 @@
                                                                 <tr class="scenario-result FAILURE">
                                                                     <td>
                                                                             <a href="b0e91f9f2a14cf26ff5eebfa764baccbd52b9690c270c2dfe91a5bdd194ed0c1.html">GET comments with invalid parameter id</a>
-                                                                            (2 examples)
+                                                                            (1 example)
                                                                     </td>
                                                                     <td>5</td>
-                                                                    <td>18:10:04</td>
-                                                                    <td>1s 922ms</td>
+                                                                    <td>18:55:33</td>
+                                                                    <td>1s 086ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                                 style="display:none">FAILURE</span>
@@ -842,11 +838,11 @@
                                                                 <tr class="scenario-result FAILURE">
                                                                     <td>
                                                                             <a href="aa458e3b334d220ac90dc6646e78978ab7f0333f92be86254d9cb2317abdabe5.html">GET comments with unregistered parameter id</a>
-                                                                            (2 examples)
+                                                                            (1 example)
                                                                     </td>
                                                                     <td>5</td>
-                                                                    <td>18:10:06</td>
-                                                                    <td>2s 146ms</td>
+                                                                    <td>18:55:34</td>
+                                                                    <td>1s 079ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                                 style="display:none">FAILURE</span>
@@ -857,8 +853,8 @@
                                                                             <a href="d0d7349a7f086967b8e718de22418213b0fcd2a2ab6af0a1629e702564348559.html">GET comments without parameter</a>
                                                                     </td>
                                                                     <td>5</td>
-                                                                    <td>18:10:08</td>
-                                                                    <td>907ms</td>
+                                                                    <td>18:55:35</td>
+                                                                    <td>981ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
                                                                                 style="display:none">ERROR</span>
@@ -867,11 +863,11 @@
                                                                 <tr class="scenario-result SUCCESS">
                                                                     <td>
                                                                             <a href="1fa8fea9c88089e5e3c38c39277cc916b02ecd0639b4dcaec63722f224bcccaf.html">GET comments with invalid parameter</a>
-                                                                            (2 examples)
+                                                                            (1 example)
                                                                     </td>
                                                                     <td>3</td>
-                                                                    <td>18:10:09</td>
-                                                                    <td>2s 067ms</td>
+                                                                    <td>18:55:36</td>
+                                                                    <td>1s 101ms</td>
                                                                     <td>
                                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                                 style="display:none">SUCCESS</span>
