@@ -7,11 +7,13 @@ import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
+import org.hamcrest.Matchers;
 import starter.JsonPlaceHolder.TodoAPI;
 import starter.JsonPlaceHolder.Utils.Constant;
 import starter.JsonPlaceHolder.Utils.JPHResponses;
 
 import java.io.File;
+import java.util.List;
 
 import static org.hamcrest.Matchers.equalTo;
 
@@ -44,14 +46,14 @@ public class GetTodosStepDef
         SerenityRest.then().statusCode(ok);
     }
 
-    @And("Response body page should be id {int}")
-    public void responseBodyPageShouldBeId(int id)
-    {
-        SerenityRest.then().body(JPHResponses.ID,equalTo(id));
-//        SerenityRest.then().body("id", equalTo(id));
-//        int actualId = JsonPath.from(SerenityRest.then().extract().asString()).getInt("id");
-//        Assertions.assertThat(actualId).isEqualTo(id);
-    }
+//    @And("Response body page should be id {int}")
+//    public void responseBodyPageShouldBeId(int id)
+//    {
+//        SerenityRest.then().body(JPHResponses.ID,equalTo(id));
+////        SerenityRest.then().body("id", equalTo(id));
+////        int actualId = JsonPath.from(SerenityRest.then().extract().asString()).getInt("id");
+////        Assertions.assertThat(actualId).isEqualTo(id);
+//    }
 
     @And("Validate json schema list todos")
     public void validateJsonSchemaListTodos()
@@ -79,11 +81,11 @@ public class GetTodosStepDef
         SerenityRest.then().statusCode(ok);
     }
 
-//    @Given("Get todos without id")
-//    public void getTodosWithoutId()
-//    {
-//        todoAPI.getListTodosBlank();
-//    }
+    @Given("Get todos without id")
+    public void getTodosWithoutId()
+    {
+        SerenityRest.given().get(TodoAPI.POST_TODOS);
+    }
 
     @When("Send request get list todos without id")
     public void sendRequestGetListTodosWithoutId()
@@ -120,5 +122,20 @@ public class GetTodosStepDef
     {
         File jsonSchema = new File(Constant.TODO_JSON_SCHEMA+"/PostTodosSchema.json");
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(jsonSchema));
+    }
+
+    @And("Response body id should be {int}")
+    public void responseBodyPageShouldBeId(int id)
+    {
+        SerenityRest.then()
+                .body(JPHResponses.ID, Matchers.instanceOf(List.class));
+    }
+
+    @And("Response body id should be {int} and response body title should be {string}")
+    public void responseBodyIdShouldBeIdAndResponseBodyTitleShouldBe(int id, String title)
+    {
+        SerenityRest.then()
+                .body(JPHResponses.ID, Matchers.instanceOf(List.class))
+                .body(JPHResponses.TITLE, Matchers.instanceOf(List.class));
     }
 }

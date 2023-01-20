@@ -1,18 +1,26 @@
 Feature: Testing POST Todos JsonPlaceHolder API
 
   @GroupProject @Positive-Case
-  Scenario: POST todos with valid input body should succes then return 201 response code
+  Scenario Outline: POST todos with valid input body should succes then return 201 response code
     Given Post create todos with valid json
     When Send request post todos with valid json
     Then Should return status code 201 Created
+    And Response body id should be <id> and title should be "<title>"
     And Validate json schema lists todos
+    Examples:
+      | id  | title              |
+      | 201 | Group Project QE 8 |
 
   @GroupProject @Negative-Case
-  Scenario: POST Todos with blank parameter should failed then return 400 response code
+  Scenario Outline: POST Todos with blank parameter should failed then return 400 response code
     Given Post create todos with blank parameter json
     When Send request post todos with blank parameter json
     Then Should return status code 400 Bad Request
+    And Response body id should be <id> and title should be "<title>"
     And Validate json schema lists todos
+    Examples:
+      | id | title |
+      |    |       |
 
   @GroupProject @Negative-Case
   Scenario: POST Todos with extra body category should failed then return 400 response code
