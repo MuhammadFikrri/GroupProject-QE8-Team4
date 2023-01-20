@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="GroupProject-Team4-QE8" />
+        <module name="serenity-rest-starter" />
         <module name="GroupProject-QE8-Team4" />
         <module name="ALTA-Serenity-REST-QE8-MuhammadFikri" />
+        <module name="GroupProject-Team4-QE8" />
       </profile>
     </annotationProcessing>
   </component>

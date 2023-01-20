@@ -12,4 +12,9 @@ public class JPHResponses {
     public static String ID = "id";
     public static String DATA_ID = "'data.id'";
     public static String DATA_EMAIL = "'data.email'";
+    public static String ID_USER = "userId";
+    public static String TITLE = "title";
+
+
+
 }

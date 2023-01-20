@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: Put update albums
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 15.917 s <<< FAILURE! - in Put update albums
+Put update album with invalid parameter request(Put update albums)  Time elapsed: 0.939 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+Put update album with blank body(Put update albums)  Time elapsed: 0.784 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+Put update album with extra body json(Put update albums)  Time elapsed: 0.166 s  <<< ERROR!
+java.lang.RuntimeException: Some exception during recording fields
+Caused by: java.io.FileNotFoundException: D:\alterra academy\automation\GroupProject-QE8-Team4\src\test\resources\JSON\Request\Albums\PutAlbumWithExtra.json (The system cannot find the file specified)
+
