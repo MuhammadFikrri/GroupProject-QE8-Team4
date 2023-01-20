@@ -48,7 +48,7 @@ public class PutAlbumStepDef {
     }
     @Given("Put update album with extra body json with id {int}")
     public void puttUpdateAlbumExtra(int id) {
-        File json = new File(Constant.ALBUMS_JSON_REQUEST+"/PutAlbumWithExtra.json");
+        File json = new File(Constant.ALBUMS_JSON_REQUEST+"/PostAlbumWithExtra.json");
         albumsAPI.putUpdateAlbum(id,json);
     }
     @Given("Put update album with unregister id {int}")

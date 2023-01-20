@@ -1,16 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Testing GET todos JsonPlaceHolder API
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.385 s <<< FAILURE! - in Testing GET todos JsonPlaceHolder API
-GET todos with id 1 and get respon body page with id 1 should succes then return 200 response code(Testing GET todos JsonPlaceHolder API)  Time elapsed: 1.385 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path id doesn't match.
-Expected: <1>
-  Actual: <[1]>
-
-
-Get todos with invalid parameter id as string should failed then return 400 response code(Testing GET todos JsonPlaceHolder API)  Time elapsed: 0.68 s  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.673 s <<< FAILURE! - in Testing GET todos JsonPlaceHolder API
+Get todos with invalid parameter id as string should failed then return 400 response code(Testing GET todos JsonPlaceHolder API)  Time elapsed: 0.892 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <200>.

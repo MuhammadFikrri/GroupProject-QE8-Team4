@@ -1,54 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Testing GET comments JsonPlaceHolder
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 6, Errors: 1, Skipped: 0, Time elapsed: 8.504 s <<< FAILURE! - in Testing GET comments JsonPlaceHolder
-GET comments with valid parameter id #1(Testing GET comments JsonPlaceHolder)  Time elapsed: 2.045 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Response body doesn't match expectation.
-Expected: The content to match the given JSON schema.
-error: instance type (object) does not match any allowed primitive type (allowed: ["array"])
-    level: "error"
-    schema: {"loadingURI":"#","pointer":""}
-    instance: {"pointer":""}
-    domain: "validation"
-    keyword: "type"
-    found: "object"
-    expected: ["array"]
-
-  Actual: {
-  "postId": 1,
-  "id": 1,
-  "name": "id labore ex et quam laborum",
-  "email": "Eliseo@gardner.biz",
-  "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
-}
-
-
-GET comments with valid parameter id #2(Testing GET comments JsonPlaceHolder)  Time elapsed: 0.883 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Response body doesn't match expectation.
-Expected: The content to match the given JSON schema.
-error: instance type (object) does not match any allowed primitive type (allowed: ["array"])
-    level: "error"
-    schema: {"loadingURI":"#","pointer":""}
-    instance: {"pointer":""}
-    domain: "validation"
-    keyword: "type"
-    found: "object"
-    expected: ["array"]
-
-  Actual: {
-  "postId": 1,
-  "id": 5,
-  "name": "vero eaque aliquid doloribus et culpa",
-  "email": "Hayden@althea.biz",
-  "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et"
-}
-
-
-GET comments with invalid parameter id #1(Testing GET comments JsonPlaceHolder)  Time elapsed: 0.848 s  <<< FAILURE!
+Tests run: 9, Failures: 4, Errors: 1, Skipped: 0, Time elapsed: 8.538 s <<< FAILURE! - in Testing GET comments JsonPlaceHolder
+GET comments with invalid parameter id #1(Testing GET comments JsonPlaceHolder)  Time elapsed: 0.852 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 JSON path id doesn't match.
@@ -56,7 +10,7 @@ Expected: abcd
   Actual: null
 
 
-GET comments with invalid parameter id #2(Testing GET comments JsonPlaceHolder)  Time elapsed: 0.695 s  <<< FAILURE!
+GET comments with invalid parameter id #2(Testing GET comments JsonPlaceHolder)  Time elapsed: 1.063 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 JSON path id doesn't match.
@@ -64,7 +18,7 @@ Expected: efgh
   Actual: null
 
 
-GET comments with unregistered parameter id #1(Testing GET comments JsonPlaceHolder)  Time elapsed: 0.689 s  <<< FAILURE!
+GET comments with unregistered parameter id #1(Testing GET comments JsonPlaceHolder)  Time elapsed: 1.082 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 JSON path id doesn't match.
@@ -72,7 +26,7 @@ Expected: <501>
   Actual: null
 
 
-GET comments with unregistered parameter id #2(Testing GET comments JsonPlaceHolder)  Time elapsed: 0.869 s  <<< FAILURE!
+GET comments with unregistered parameter id #2(Testing GET comments JsonPlaceHolder)  Time elapsed: 1.056 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 JSON path id doesn't match.
@@ -80,7 +34,7 @@ Expected: <601>
   Actual: null
 
 
-GET comments without parameter(Testing GET comments JsonPlaceHolder)  Time elapsed: 0.917 s  <<< ERROR!
+GET comments without parameter(Testing GET comments JsonPlaceHolder)  Time elapsed: 0.914 s  <<< ERROR!
 io.restassured.module.jsv.JsonSchemaValidationException: 
 com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
  at [Source: (StringReader); line: 2, column: 2]

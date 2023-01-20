@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Testing Create Album" skipped="0" tests="5" time="6.18" timestamp="2023-01-20 01:44:29"><testcase name="Post create album with valid json"/><testcase name="Post create album with invalid json"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="Testing Create Album" skipped="0" tests="5" time="5.23" timestamp="2023-01-20 06:09:45"><testcase name="Post create album with valid json"/><testcase name="Post create album with invalid json"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;201&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;201&gt;.
@@ -13,7 +13,7 @@ groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
 starter.JsonPlaceHolder.Albums.GetAlbumsStepDef.shouldReturnStatusCode(GetAlbumsStepDef.java:35)&#13;
-✽.should return status code 404(classpath:features/JsonPlaceHolder/Albums/PostAlbums.feature:11)&#13;
+✽.should return status code 404(classpath:features/JsonPlaceHolder/Albums/PostAlbums.feature:12)&#13;
 </system-err></testcase><testcase name="Post create album with same body json"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;201&gt;.
 </failure><system-err>1 expectation failed.
@@ -29,7 +29,7 @@ groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
 starter.JsonPlaceHolder.Albums.GetAlbumsStepDef.shouldReturnStatusCode(GetAlbumsStepDef.java:35)&#13;
-✽.should return status code 404(classpath:features/JsonPlaceHolder/Albums/PostAlbums.feature:17)&#13;
+✽.should return status code 404(classpath:features/JsonPlaceHolder/Albums/PostAlbums.feature:18)&#13;
 </system-err></testcase><testcase name="Post create album with blank body json"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;201&gt;.
 </failure><system-err>1 expectation failed.
@@ -45,7 +45,7 @@ groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
 starter.JsonPlaceHolder.Albums.GetAlbumsStepDef.shouldReturnStatusCode(GetAlbumsStepDef.java:35)&#13;
-✽.should return status code 404(classpath:features/JsonPlaceHolder/Albums/PostAlbums.feature:23)&#13;
+✽.should return status code 404(classpath:features/JsonPlaceHolder/Albums/PostAlbums.feature:24)&#13;
 </system-err></testcase><testcase name="Post create album with extra body json"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;201&gt;.
 </failure><system-err>1 expectation failed.
@@ -61,5 +61,5 @@ groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
 starter.JsonPlaceHolder.Albums.GetAlbumsStepDef.shouldReturnStatusCode(GetAlbumsStepDef.java:35)&#13;
-✽.should return status code 404(classpath:features/JsonPlaceHolder/Albums/PostAlbums.feature:28)&#13;
+✽.should return status code 404(classpath:features/JsonPlaceHolder/Albums/PostAlbums.feature:30)&#13;
 </system-err></testcase></testsuite>

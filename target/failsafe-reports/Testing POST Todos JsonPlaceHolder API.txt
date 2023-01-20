@@ -1,26 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: Testing POST Todos JsonPlaceHolder API
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.671 s <<< FAILURE! - in Testing POST Todos JsonPlaceHolder API
-POST Todos with blank parameter should failed then return 400 response code(Testing POST Todos JsonPlaceHolder API)  Time elapsed: 0.769 s  <<< FAILURE!
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 5.42 s <<< FAILURE! - in Testing POST Todos JsonPlaceHolder API
+POST Todos with blank parameter should failed then return 400 response code(Testing POST Todos JsonPlaceHolder API)  Time elapsed: 1.118 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <201>.
 
 
-POST Todos with extra body category should failed then return 400 response code(Testing POST Todos JsonPlaceHolder API)  Time elapsed: 0.701 s  <<< FAILURE!
+POST Todos with extra body category should failed then return 400 response code(Testing POST Todos JsonPlaceHolder API)  Time elapsed: 1.117 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <201>.
 
 
-POST Todos with invalid body data type should failed then return 400 response code(Testing POST Todos JsonPlaceHolder API)  Time elapsed: 0.696 s  <<< FAILURE!
+POST Todos with invalid body data type should failed then return 400 response code(Testing POST Todos JsonPlaceHolder API)  Time elapsed: 1.073 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <201>.
 
 
-POST Todos with invalid body category should failed then return 400 response code(Testing POST Todos JsonPlaceHolder API)  Time elapsed: 0.68 s  <<< FAILURE!
+POST Todos with invalid body category should failed then return 400 response code(Testing POST Todos JsonPlaceHolder API)  Time elapsed: 1.032 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <201>.

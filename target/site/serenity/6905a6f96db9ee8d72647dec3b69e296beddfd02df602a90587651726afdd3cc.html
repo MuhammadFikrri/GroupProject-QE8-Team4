@@ -156,7 +156,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 16:15</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 18:10</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -181,7 +181,7 @@
                                 <p class="tag">
                                     <span class="badge tag-badge" style="background:default;">
                                     <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
-                                                                      href="a9d0f3b9e0f7d40d3aaffeedaab87184abcb42c061bf11324a1d79e4addeb340.html">Project
+                                                                      href="c554512d4f44f4dcbccd425be22a411034e9531370583f02a3af95496c33ad8a.html">Group Project
                                     (tag)</a>
                                 </span>
                                 </p>
@@ -216,7 +216,7 @@
         <div class="story-title">
             <h3 class="story-header">Scenario Outline</h3>
 
-            <div class="scenario">Given Delete user with valid id &lt;id&gt;<br>When Send request delete user<br>Then Should return status code 204</div>
+            <div class="scenario">Given Delete posts with valid id &lt;id&gt;<br>When Send post request to delete user<br>Then Should return status code 204</div>
 
         </div>
 
@@ -297,7 +297,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">5s 222ms</span></td>
+                        <td width="100"><span class="top-level-step">1s 115ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -318,7 +318,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                Given Delete user with valid id 1
+                                                Given Delete posts with valid id 1
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -327,7 +327,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">2s 156ms</span></td>
+                        <td width="100"><span class="nested-step">004ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -352,7 +352,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1s 927ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
 
                                 </table>
@@ -374,7 +374,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-1')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                When Send request delete user
+                                                When Send post request to delete user
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -383,7 +383,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">2s 902ms</span></td>
+                        <td width="100"><span class="nested-step">1s 104ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -416,13 +416,17 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>URL: https://jsonplaceholder.typicode.com/posts/1</p>
+                                        <p>URL: https://jsonplaceholder.typicode.com/posts/1</p>
                                         <p>Status code: 200</p>
                                         <p>Content Type: null</p>
                                         <h4>Request Headers</h4>
-                                        <pre>Accept=*/*</pre>
+                                        <pre>Accept=*/*</pre>
+                                        <h4>Content Body</h4>
+                                        <pre></pre>
+                                        <h4>Request Cookies</h4>
+                                        <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Fri, 20 Jan 2023 09:15:53 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 999<br>X-Ratelimit-Reset: 1674206171<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: no-cache<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Server-Timing: cf-q-config;dur=6.0000002122251e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=p7GnUCFF%2Fp0JLjBVcVj71cuqI42bRBOSWBv9BY%2BbF8H%2BoSr2HGMRdAPs65EdCvYiom2Qtj70z7X0x%2F4DkmHjpr%2B4LfjBTvKhkIhO7IImhDsWc7lXyu0LZ4HZ4qHESWU8luyx%2BCDSoC39Yd9PZ2c4&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c6b5486b136c72-SIN<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                        <pre>Date: Fri, 20 Jan 2023 11:10:23 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 987<br>X-Ratelimit-Reset: 1674213071<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: no-cache<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Server-Timing: cf-q-config;dur=6.0000002122251e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=y0COuwvCeHlMj25VzXPNilPHcSo9vB7%2BC%2FCxsUge2%2BQ9SKbVb%2FETtkjjkLNne3M79BYX%2Fe5eWgVjW0Byk8wzeU3s6bxEcEWu5vOCQGvFLSq1h44qjLh8oz5R3VhXs16i2o%2B6FC1OlITL44hej%2FHY&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c75d03a91b2aa4-LAX<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
                                         <pre>{<br>    <br>}</pre>
                                 </div>
@@ -435,7 +439,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
 
                                 </table>
@@ -461,7 +465,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">122ms</span></td>
+                        <td width="100"><span class="nested-group-step">003ms</span></td>
                     </tr>
                         <tr class="test-FAILURE">
                             <td width="40">&nbsp</td>
@@ -530,7 +534,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">1s 044ms</span></td>
+                        <td width="100"><span class="top-level-step">1s 082ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -551,7 +555,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                Given Delete user with valid id 2
+                                                Given Delete posts with valid id 2
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -560,7 +564,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">046ms</span></td>
+                        <td width="100"><span class="nested-step">004ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -585,7 +589,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">014ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
 
                                 </table>
@@ -607,7 +611,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-1')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                When Send request delete user
+                                                When Send post request to delete user
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -616,7 +620,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">953ms</span></td>
+                        <td width="100"><span class="nested-step">1s 072ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -649,13 +653,17 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>URL: https://jsonplaceholder.typicode.com/posts/2</p>
+                                        <p>URL: https://jsonplaceholder.typicode.com/posts/2</p>
                                         <p>Status code: 200</p>
                                         <p>Content Type: null</p>
                                         <h4>Request Headers</h4>
-                                        <pre>Accept=*/*</pre>
+                                        <pre>Accept=*/*</pre>
+                                        <h4>Content Body</h4>
+                                        <pre></pre>
+                                        <h4>Request Cookies</h4>
+                                        <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Fri, 20 Jan 2023 09:15:54 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 998<br>X-Ratelimit-Reset: 1674206171<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: no-cache<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Server-Timing: cf-q-config;dur=8.0000008892966e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=HvRHCxLUx5SNif5pWtf89wVN011P0TkKusU3q88wriAtNBiwzgaGjQgrJQWztW3FGBLW%2BDAC7gidN6BC1YcttZZNSU1F7KIHmPPLAlfVZr3BqdaflL%2Fy50ZYKOfVXISJCEc18%2Bxsk89W2MZMYzbt&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c6b550ec9989a4-SIN<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                        <pre>Date: Fri, 20 Jan 2023 11:10:24 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 986<br>X-Ratelimit-Reset: 1674213071<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: no-cache<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Server-Timing: cf-q-config;dur=7.0000005507609e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2F34dwU1TGdx8tEWoO4Dvi%2BU%2BSTmBIkZllj9grF%2FkeqPzrIxO%2FCVW%2Bt3ZJ0bmdM9dRV9xmWP8zoNlkxM%2F6N2O%2BHzK4jbCAcWggHUER7UDgjUp9uYpMu1DArSRp6YCg2PFM%2BMVs%2Bj6i4QTwibKfmsh&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c75d0a7dcc7e4c-LAX<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
                                         <pre>{<br>    <br>}</pre>
                                 </div>
@@ -694,7 +702,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">023ms</span></td>
+                        <td width="100"><span class="nested-group-step">003ms</span></td>
                     </tr>
                         <tr class="test-FAILURE">
                             <td width="40">&nbsp</td>
@@ -741,7 +749,7 @@
                 <tr class="test-FAILURE">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>6.64s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>2.21s</em></span></td>
                 </tr>
 
             </table>

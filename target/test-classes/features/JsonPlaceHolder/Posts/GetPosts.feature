@@ -1,14 +1,12 @@
 Feature: Testing Get Posts REST API
 
-
-  @Project
+  @GroupProject
   Scenario: API GET without id
     Given Get list user
     When Send request get list user without id
     Then Should return status code 200
-    And Validate json schema
 
-  @Project
+  @GroupProject
   Scenario Outline: API GET with valid id
     Given Get list user with <id>
     When Send request get list user
@@ -18,7 +16,7 @@ Feature: Testing Get Posts REST API
       | 1  |
       | 2  |
 
-  @Project
+  @GroupProject
   Scenario Outline: API GET with invalid id
     Given Get list user with invalid "<id>"
     When Send request get list user
@@ -28,7 +26,7 @@ Feature: Testing Get Posts REST API
       | abc |
       | 105 |
 
-    @Project
+  @GroupProject
     Scenario: API GET with invalid parameter id
       Given Get list user with invalid parameter id
       When Send request with invalid parameter id

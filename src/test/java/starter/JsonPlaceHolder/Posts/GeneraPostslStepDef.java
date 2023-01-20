@@ -32,8 +32,8 @@ public class GeneraPostslStepDef {
         SerenityRest.when().post(PostsAPI.POST_POSTS);
     }
 
-    @When("Send request delete user")
-    public void sendRequestDeleteUser() {
+    @When("Send post request to delete user")
+    public void sendPostRequestToDeleteUser() {
         SerenityRest.when().delete(PostsAPI.DELETE_POSTS);
     }
 

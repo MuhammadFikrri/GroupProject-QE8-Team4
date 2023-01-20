@@ -156,7 +156,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 00:04</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 18:10</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -220,9 +220,45 @@
 
     <div class="clr"></div>
 
+        <div class="story-title">
+            <h3 class="story-header">Scenario Outline</h3>
+
+            <div class="scenario">Given Post create todos with valid json<br>When Send request post todos with valid json<br>Then Should return status code 201 Created<br>And Response body id should be &lt;id&gt; and title should be "&lt;title&gt;"<br>And Validate json schema lists todos</div>
+
+        </div>
 
     <div id="beforetable"></div>
 
+
+            <h3 class="story-header">Examples:&nbsp;</h3>
+                <div class="requirementNarrative"></div>
+
+
+                <p class="example-tag">
+                </p>
+
+            <div class="example-table test-report">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                            <th>Id</th>
+                            <th>Title</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="test-SUCCESS"><a href="#0">1</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">201</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">Group Project QE 8</a>
+                                </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
     <div id="tablecontents">
         <div>
@@ -257,7 +293,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Given Post create todos with valid json
+                                                1: POST todos with valid input body should succes then return 201 response code ({id=201, title=Group Project QE 8})
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -266,7 +302,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">007ms</span></td>
+                        <td width="100"><span class="top-level-step">1s 065ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -275,7 +311,37 @@
 
                         <td width="70" class="step-icon">
                             <a name="0-0"></a>
-                                <span style="margin-left: 40px;"
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection0-0 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                Given Post create todos with valid json
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">003ms</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection0-0" class="step-table-nested" style="display:none;">
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="0-0-0"></a>
+                                <span style="margin-left: 60px;"
                                       class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
@@ -291,7 +357,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">004ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
 
                                 </table>
@@ -299,20 +365,20 @@
                         </tr>
                     <tr class="test-SUCCESS">
 
-                        <td width="50" class="step-icon">
-                            <a name="1"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                        <td width="70" class="step-icon">
+                            <a name="0-1"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-1')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1 success-icon"
-                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
+                                    <i class="fa fa-plus-square-o imgstepSection0-1 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-1')"
                                    style="display:block;">
-                                    <span class="top-level-step">
+                                    <span class="nested-step">
                                                 When Send request post todos with valid json
                                         </span>
                                 </a>
@@ -321,17 +387,17 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">791ms</span></td>
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">1s 039ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
-                                <table id="stepSection1" class="step-table-nested" style="display:none;">
+                                <table id="stepSection0-1" class="step-table-nested" style="display:none;">
                     <tr class="test-SUCCESS">
 
-                        <td width="70" class="step-icon">
-                            <a name="1-0"></a>
-                                <span style="margin-left: 40px;"
+                        <td width="90" class="step-icon">
+                            <a name="0-1-0"></a>
+                                <span style="margin-left: 60px;"
                                       class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
@@ -345,13 +411,13 @@
                                         <span class="piece-of-evidence">
                     <span>
                         <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
-                                data-target="#restModal-REST-4">
+                                data-target="#restModal-REST-5">
                             REST Query
                         </button>
                     </span>
                     <!-- Modal -->
                     <div class="rest-query-details">
-                        <div class="collapse multi-collapse" id="restModal-REST-4">
+                        <div class="collapse multi-collapse" id="restModal-REST-5">
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
@@ -361,11 +427,11 @@
                                         <h4>Request Headers</h4>
                                         <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
                                         <h4>Content Body</h4>
-                                        <pre>C:\FikriData\Fikri Data Penting\Altera\TODOS\GroupProject-QE8-Team4\src\test\resources\JSON\Request\Todos\ValidPostTodos.json</pre>
+                                        <pre>C:\Users\muham\OneDrive\Desktop\GroupProject-QE8-Team4\src\test\resources\JSON\Request\Todos\ValidPostTodos.json</pre>
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Thu, 19 Jan 2023 17:04:47 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 87<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 990<br>X-Ratelimit-Reset: 1674147910<br>Vary: Origin, X-HTTP-Method-Override, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: no-cache<br>Pragma: no-cache<br>Expires: -1<br>Access-Control-Expose-Headers: Location<br>Location: http://jsonplaceholder.typicode.com/todos/201<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;57-VUFKLLJ1qm14hB+YI5d3s/mNGws&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Server-Timing: cf-q-config;dur=5.9999983932357e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=GWoWTyPXslTWXWwhJJkLVLFIT9T5afSGBBJweVMUjLz6%2BMF7W%2Ft%2BateUx628RSBFKKEBjgWxLQewqg0%2Boq7FzbGDCtPJXFP9Tp5C8juefRuZPaLzsNhSbzql4Yhxo8rxEZ9abALf%2FiGTGREJs5BM&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c126c3bcc19fa9-SIN<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                        <pre>Date: Fri, 20 Jan 2023 11:10:54 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 87<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 963<br>X-Ratelimit-Reset: 1674213071<br>Vary: Origin, X-HTTP-Method-Override, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: no-cache<br>Pragma: no-cache<br>Expires: -1<br>Access-Control-Expose-Headers: Location<br>Location: http://jsonplaceholder.typicode.com/todos/201<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;57-VUFKLLJ1qm14hB+YI5d3s/mNGws&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Server-Timing: cf-q-config;dur=6.0000002122251e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=uFIrKzqPN%2F2LkOE7fagKDfzvdyiKglzhZ3q0%2F0ZwvrLi0P2oXKAozuM6TpN4gshehaMEyik%2F%2BuMFoy%2BHvDUNGWrNy8LbK7mORuTFmTsgC3fl6Dr0cAdGIuBqiAiY6Df8SJRk5K3qRHCsHl3Zy8Ma&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c75dc6ba762abc-LAX<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
                                         <pre>{<br>    &quot;userId&quot;: 201,<br>    &quot;title&quot;: &quot;Group Project QE 8&quot;,<br>    &quot;completed&quot;: false,<br>    &quot;id&quot;: 201<br>}</pre>
                                 </div>
@@ -386,16 +452,16 @@
                         </tr>
                     <tr class="test-SUCCESS">
 
-                        <td width="50" class="step-icon">
-                            <a name="2"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                        <td width="70" class="step-icon">
+                            <a name="0-2"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="top-level-step">
+                                    <span class="nested-group-step">
                                                 Then Should return status code 201 Created
                                         </span>
                                 <span class="evidence">
@@ -403,21 +469,43 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">002ms</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
-                        <td width="50" class="step-icon">
-                            <a name="3"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                        <td width="70" class="step-icon">
+                            <a name="0-3"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="top-level-step">
+                                    <span class="nested-group-step">
+                                                And Response body id should be 201 and title should be "Group Project QE 8"
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">015ms</span></td>
+                    </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-4"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
                                                 And Validate json schema lists todos
                                         </span>
                                 <span class="evidence">
@@ -425,13 +513,17 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">006ms</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">004ms</span></td>
                     </tr>
+
+                                </table>
+                            </td>
+                        </tr>
                 <tr class="test-SUCCESS">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.81s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1.07s</em></span></td>
                 </tr>
 
             </table>

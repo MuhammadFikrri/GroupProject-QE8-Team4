@@ -11,8 +11,8 @@ public class DeleteAlbumStepDef {
     @Steps
     AlbumsAPI albumsAPI;
 
-    @Given("Delete user with valid id {int}")
-    public void deleteUserWithValidId(int id) {albumsAPI.deleteAlbums(id);
+    @Given("Delete albums with valid id {int}")
+    public void deleteAlbumsWithValidId(int id) {albumsAPI.deleteAlbums(id);
 
     }
 
@@ -21,8 +21,8 @@ public class DeleteAlbumStepDef {
         SerenityRest.when().delete(AlbumsAPI.DELETE_ALBUMS);
     }
 
-    @Given("Delete user with invalid id {int}")
-    public void deleteUserWithInValidId(int id) {albumsAPI.deleteAlbums(id);
+    @Given("Delete albums with invalid id {int}")
+    public void deleteAlbumsWithInValidId(int id) {albumsAPI.deleteAlbums(id);
 
     }
 

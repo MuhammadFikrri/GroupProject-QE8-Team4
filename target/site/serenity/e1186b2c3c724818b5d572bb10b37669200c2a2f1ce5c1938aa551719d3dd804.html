@@ -156,7 +156,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-01-2023 22:46</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 18:10</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -200,9 +200,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">
+                                <span class="success-color">
                                     GET comments with valid parameter id
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -223,7 +223,7 @@
         <div class="story-title">
             <h3 class="story-header">Scenario Outline</h3>
 
-            <div class="scenario">Given Get comments with valid parameter &lt;id&gt;<br>When Send request get list comments<br>Then Should return status code 200<br>And Response body page should be &lt;id&gt;<br>And Validate json schema list comments</div>
+            <div class="scenario">Given Get comments with valid parameter &lt;id&gt;<br>When Send request get list comments<br>Then Should return comment status code 200<br>And Response body page should be &lt;id&gt;<br>And Validate json schema list comments</div>
 
         </div>
 
@@ -247,14 +247,14 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="test-FAILURE"><a href="#0">1</a></td>
-                                <td class="test-FAILURE"><a
+                            <td class="test-SUCCESS"><a href="#0">1</a></td>
+                                <td class="test-SUCCESS"><a
                                             href="#0">1</a>
                                 </td>
                         </tr>
                         <tr>
-                            <td class="test-FAILURE"><a href="#1">2</a></td>
-                                <td class="test-FAILURE"><a
+                            <td class="test-SUCCESS"><a href="#1">2</a></td>
+                                <td class="test-SUCCESS"><a
                                             href="#1">5</a>
                                 </td>
                         </tr>
@@ -279,13 +279,13 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -303,8 +303,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">2s 041ms</span></td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">744ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -334,7 +334,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">006ms</span></td>
+                        <td width="100"><span class="nested-step">004ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -433,7 +433,7 @@
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Thu, 19 Jan 2023 15:46:18 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 986<br>X-Ratelimit-Reset: 1674136390<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=43200<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;10c-KJ4I9RM/+33TKdV8CFsIvqsDSP0&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: HIT<br>Age: 6842<br>Server-Timing: cf-q-config;dur=4.9999998736894e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=WVk7JPYDQEuEaSWLT4Ct5FcGv47jiSOHVS6PXP%2BjbOj21LnnkUeOdFqZ8z4LjGf9r2sltycQAWZ0i2BVcWfZlKap7%2FJlx9RkZ1sRy%2BiDolz7%2B6lV0qhWl3qxwDei05OseVM4%2BXJ34HDG4xGL2uqI&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c0b3d0bd5c0ccb-LAX<br>Content-Encoding: gzip<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                        <pre>Date: Fri, 20 Jan 2023 11:10:03 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 998<br>X-Ratelimit-Reset: 1674196690<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=43200<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;10c-KJ4I9RM/+33TKdV8CFsIvqsDSP0&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: HIT<br>Age: 16373<br>Server-Timing: cf-q-config;dur=4.9999998736894e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Xkw%2F7Ivq2LnN8KiRwcm5%2Bb11YaR4tFXXBgv0o0se5qPy9Fk%2FMGkg15cThJ8%2BC0D6LcoEgIMOXlXNUBnqPjWw0gDiwng6uEM8sJEgINZUuLb1DXqikxjC0OhY%2FQfCXMhj5V4sjtzsHh%2BtiZEqJQLb&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c75c89fe8352a7-LAX<br>Content-Encoding: gzip<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
                                         <pre>{<br>    &quot;postId&quot;: 1,<br>    &quot;id&quot;: 1,<br>    &quot;name&quot;: &quot;id labore ex et quam laborum&quot;,<br>    &quot;email&quot;: &quot;Eliseo@gardner.biz&quot;,<br>    &quot;body&quot;: &quot;laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium&quot;<br>}</pre>
                                 </div>
@@ -464,7 +464,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                Then Should return status code 200
+                                                Then Should return comment status code 200
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -494,14 +494,14 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">733ms</span></td>
+                        <td width="100"><span class="nested-group-step">011ms</span></td>
                     </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="70" class="step-icon">
                             <a name="0-4"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
@@ -515,58 +515,20 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">559ms</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">005ms</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Response body doesn&#39;t match expectation.<br>Expected: The content to match the given JSON schema.<br>error: instance type (object) does not match any allowed primitive type (allowed: [&quot;array&quot;])<br>    level: &quot;error&quot;<br>    schema: {&quot;loadingURI&quot;:&quot;#&quot;,&quot;pointer&quot;:&quot;&quot;}<br>    instance: {&quot;pointer&quot;:&quot;&quot;}<br>    domain: &quot;validation&quot;<br>    keyword: &quot;type&quot;<br>    found: &quot;object&quot;<br>    expected: [&quot;array&quot;]<br><br>  Actual: {<br>  &quot;postId&quot;: 1,<br>  &quot;id&quot;: 1,<br>  &quot;name&quot;: &quot;id labore ex et quam laborum&quot;,<br>  &quot;email&quot;: &quot;Eliseo@gardner.biz&quot;,<br>  &quot;body&quot;: &quot;laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium&quot;<br>}<br></span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-8""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-8">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:98)<br />io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)<br />io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:-1)<br />starter.JsonPlaceHolder.Comments.GetCommentsStepDef.validateJsonSchemaListComments(GetCommentsStepDef.java:46)<br />✽.Validate json schema list comments(classpath:features/JsonPlaceHolder/Comments/GetComments.feature:9)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
 
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1 failure-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection1 success-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -584,8 +546,8 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">873ms</span></td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">704ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -615,7 +577,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">007ms</span></td>
+                        <td width="100"><span class="nested-step">004ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -640,7 +602,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
 
                                 </table>
@@ -671,7 +633,7 @@
                         </td>
 
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">808ms</span></td>
+                        <td width="100"><span class="nested-step">682ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -714,7 +676,7 @@
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Thu, 19 Jan 2023 15:46:20 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 999<br>X-Ratelimit-Reset: 1674143230<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=43200<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;104-cDWxPpdnlz4RLovlbex/FGgIZek&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: MISS<br>Server-Timing: cf-q-config;dur=4.9999980547e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=R%2BAnzZdlzIWAn80Apomr6qU%2FS9Zd9gQltCLszquMzIcyQln3qFOGOO9B9nSb6WWIE9vvaBDrfnwLRTTs6D0l43%2FDrw1agdVpOdhsr8SFvirDIgaghH9HwibDn72SjC1C3BMb%2BkQE7%2F9x7mZbtG2g&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c0b3ddc9f32f47-LAX<br>Content-Encoding: gzip<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                        <pre>Date: Fri, 20 Jan 2023 11:10:04 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 997<br>X-Ratelimit-Reset: 1674210551<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=43200<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;104-cDWxPpdnlz4RLovlbex/FGgIZek&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: HIT<br>Age: 2460<br>Server-Timing: cf-q-config;dur=6.0000002122251e-06<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=9BiCgCsP6Q%2BDHpIjM3NYhJDZOn2tdfI5wiSkqsIRUHt0p78FqqSsoW5yhtCHbg36N2JenNFHy3WOONcOd2bvI%2BjwdgZA%2FcdV1ZHGv1kLmsmOFFvZS3wUF7ncri80LwGj21ooAzdUNzLdGYSQEzOA&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 78c75c8e6f057bd7-LAX<br>Content-Encoding: gzip<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
                                         <pre>{<br>    &quot;postId&quot;: 1,<br>    &quot;id&quot;: 5,<br>    &quot;name&quot;: &quot;vero eaque aliquid doloribus et culpa&quot;,<br>    &quot;email&quot;: &quot;Hayden@althea.biz&quot;,<br>    &quot;body&quot;: &quot;harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et&quot;<br>}</pre>
                                 </div>
@@ -745,7 +707,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                Then Should return status code 200
+                                                Then Should return comment status code 200
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -753,7 +715,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">002ms</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -775,14 +737,14 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">019ms</span></td>
+                        <td width="100"><span class="nested-group-step">010ms</span></td>
                     </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="70" class="step-icon">
                             <a name="1-4"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
@@ -796,55 +758,17 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">019ms</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">004ms</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Response body doesn&#39;t match expectation.<br>Expected: The content to match the given JSON schema.<br>error: instance type (object) does not match any allowed primitive type (allowed: [&quot;array&quot;])<br>    level: &quot;error&quot;<br>    schema: {&quot;loadingURI&quot;:&quot;#&quot;,&quot;pointer&quot;:&quot;&quot;}<br>    instance: {&quot;pointer&quot;:&quot;&quot;}<br>    domain: &quot;validation&quot;<br>    keyword: &quot;type&quot;<br>    found: &quot;object&quot;<br>    expected: [&quot;array&quot;]<br><br>  Actual: {<br>  &quot;postId&quot;: 1,<br>  &quot;id&quot;: 5,<br>  &quot;name&quot;: &quot;vero eaque aliquid doloribus et culpa&quot;,<br>  &quot;email&quot;: &quot;Hayden@althea.biz&quot;,<br>  &quot;body&quot;: &quot;harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et&quot;<br>}<br></span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-16""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-16">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:98)<br />io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)<br />io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)<br />io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:-1)<br />starter.JsonPlaceHolder.Comments.GetCommentsStepDef.validateJsonSchemaListComments(GetCommentsStepDef.java:46)<br />✽.Validate json schema list comments(classpath:features/JsonPlaceHolder/Comments/GetComments.feature:9)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
 
                                 </table>
                             </td>
                         </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>2.95s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1.46s</em></span></td>
                 </tr>
 
             </table>

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing Get Posts REST API","API GET without id","SUCCESS","2023-01-20T18:10:26.821+07:00[Asia/Bangkok]","0.0","1.05"
+"Testing Get Posts REST API","API GET with valid id","SUCCESS","2023-01-20T18:10:27.881+07:00[Asia/Bangkok]","0.0","1.61"
+"Testing Get Posts REST API","API GET with invalid id","SUCCESS","2023-01-20T18:10:29.495+07:00[Asia/Bangkok]","0.0","2.13"
+"Testing Get Posts REST API","API GET with invalid parameter id","FAILURE","2023-01-20T18:10:31.624+07:00[Asia/Bangkok]","0.0","1.1"

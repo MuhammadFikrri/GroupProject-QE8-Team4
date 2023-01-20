@@ -16,8 +16,8 @@ public class DeletePostsStepDef {
 
 
     //scenario2
-    @Given("Delete user with valid id {int}")
-    public void deleteUserWithValidId(int id) {
+    @Given("Delete posts with valid id {int}")
+    public void deletePostsWithValidId(int id) {
         postsAPI.deleteUser(id);
     }
 }
