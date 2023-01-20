@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Albums","type":"capability","href":"cbdeff6e36a4e3b2333c4c76012ba9261454816852d6bf0078a60f73673a3372.html","nodes":[{"text":"Delete album","type":"feature","href":"ce6b9fa93bc308cb5403a11b3d69aa2aaf2d449b9e1100821dbcba7466879c92.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 scenarios\u003c/span\u003e"]},{"text":"Put update albums","type":"feature","href":"99cb04b5596c25aab22402fee9eced0cdfd242ebb539662c26aeda31878d55f4.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e5 scenarios\u003c/span\u003e"]},{"text":"Testing","type":"feature","href":"b84230ffd54dc1f5ad7b59bde80216fc23a7e65dda0e0f26161b63ed8abc6c0f.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 scenarios\u003c/span\u003e"]},{"text":"Testing Create Album","type":"feature","href":"519d52c76ff225a447231c2b75701509c257495aac9339e14bdab8039dc8ec5b.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-times-circle failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e5 scenarios\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e4 features\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Albums","type":"capability","href":"cbdeff6e36a4e3b2333c4c76012ba9261454816852d6bf0078a60f73673a3372.html","nodes":[{"text":"Get albums","type":"feature","href":"b393dcc622c0584b0727a5cf8fd4a613b79e85cefc553cea5c59a12ad91767be.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027far fa-stop-circle pending-icon \u0027 title\u003d\u0027PENDING\u0027\u003e\u003c/i\u003e\u003c/a\u003e",""]}],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027far fa-stop-circle pending-icon \u0027 title\u003d\u0027PENDING\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 feature\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -193,7 +193,6 @@
             <span class="breadcrumbs">
             <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
 
-                > <a href="5050b9876a9e63b3bc19353ea20fdc7ceac3dba7c1b97d0f8dae25921e3f6a5e.html">Json Place Holder</a>
 
 
                     > <span class="truncate-40">Albums</span>
@@ -224,7 +223,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 01:43</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -287,41 +286,7 @@
                                 <div id="results" class="tab-pane fade">
                                     <div class="container-fluid">
                                         <div class="row">
-                                            <div class="col-sm-4">
-
-                                                <div style="width:300px;" class="chart-container automated-and-manual-results">
-                                                    <div class="ct-chart ct-square"></div>
-                                                </div>
-                                                <script>
-
-                                                    var labels = ['36%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '57%', ' ', '7%', ' ', ' ', ' '];
-                                                    // Our series array that contains series objects or in this case series data arrays
-
-                                                    var series = [{meta: 'Passing tests (automated)', value: 5}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 8}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
-
-                                                    // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
-                                                    // as you saw in the previous example
-                                                    var options = {
-                                                        width: 350,
-                                                        height: 300
-                                                    };
-
-                                                    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                                        new Chartist.Pie('.ct-chart', {
-                                                            series: series,
-                                                            labels: labels,
-                                                        }, {
-                                                            donut: true,
-                                                            donutWidth: 60,
-                                                            donutSolid: true,
-                                                            startAngle: 270,
-                                                            showLabel: true
-                                                        }, options);
-                                                    });
-
-                                                </script>
-                                            </div>
-                                            <div class="col-sm-8">
+                                                <div class="col-sm-12">
 
                                                     <table class="table">
                                                         <thead>
@@ -336,12 +301,11 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                                <td class="aggregate-result-count">
-                                                                    <a href="626d1437302d3a2c2529b2a13f845437c7fcba656c114d604a291e7b850cb414.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                 </td>
-                                                            <td class="automated-stats">5</td>
-                                                            <td class="automated-stats">36%</td>
+                                                            <td class="automated-stats">0</td>
+                                                            <td class="automated-stats"> </td>
                                                         </tr>
                                                         <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -365,26 +329,26 @@
                                                             <td class="automated-stats"> </td>
                                                         </tr>
                                                         <tr>
-                                                                    <td colspan="3"><a href="939bb4f73f11736428374863357ab373b24c602739388a8b6f0b65b9baffc600.html"><i
-                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                    <td colspan="3"><i
+                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                     </td>
 
                                                         </tr>
 
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
-                                                                    <a href="5dc13c6d05e5dfb516c219228bae90f0e2b0ef6b37ce075449a7617288aade72.html"><i
-                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                                    <i
+                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
                                                                 </td>
-                                                            <td class="automated-stats">8</td>
-                                                            <td class="automated-stats">57%</td>
+                                                            <td class="automated-stats">0</td>
+                                                            <td class="automated-stats"> </td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
-                                                                    <a href="203af1d8eebd23789c3bb02e0513fb3d338e2d0df5b23ec8f9cda6300c9feeeb.html"><i
-                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
+                                                                    <i
+                                                                            class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
                                                                 </td>
-                                                            <td class="automated-stats">1</td>
-                                                            <td class="automated-stats">7%</td>
+                                                            <td class="automated-stats">0</td>
+                                                            <td class="automated-stats"> </td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -395,7 +359,7 @@
                                                         </tr>
                                                         <tr class="summary-stats">
                                                             <td class="aggregate-result-count">Total</td>
-                                                            <td class="automated-stats">14</td>
+                                                            <td class="automated-stats">0</td>
                                                             <td class="automated-stats"></td>
                                                         </tr>
                                                         </tbody>
@@ -417,11 +381,11 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>55s</td>
-                                                            <td>51s</td>
-                                                            <td>163ms</td>
-                                                            <td>16s</td>
-                                                            <td>3s</td>
+                                                            <td>0ms</td>
+                                                            <td>0ms</td>
+                                                            <td>0ms</td>
+                                                            <td>0ms</td>
+                                                            <td>0ms</td>
                                                         </tr>
                                                         </tbody>
                                                     </table>
@@ -456,16 +420,16 @@
 
 
             <td> 
-                <a href="ce6b9fa93bc308cb5403a11b3d69aa2aaf2d449b9e1100821dbcba7466879c92.html">Delete album</a></span>
+                <a href="b393dcc622c0584b0727a5cf8fd4a613b79e85cefc553cea5c59a12ad91767be.html">Get albums</a></span>
             </td>
             <td> 
                 
             </td>
-            <td>2</td>
+            <td>0</td>
             <td>0</td>
             <td>
-                <span class="status_icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></span>
-                <span style="display:none">3</span>
+                <span class="status_icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a></span>
+                <span style="display:none">2</span>
             </td>
 
             <td width="165px">
@@ -474,18 +438,18 @@
 <table>
     <tr>
         <td width="40px" style="padding-top:4px;">
-            <div class="small" style="text-align:right;">50%</div>
+            <div class="small" style="text-align:right;">0%</div>
         </td>
         <td style="min-width:12.5em;">
             <div class="progress">
                 <div class="progress-bar" role="progressbar"
-                     style="width: 50%; background-color:#30cb23;"
-                     aria-valuenow="1"
+                     style="width: 0%; background-color:#30cb23;"
+                     aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -495,10 +459,10 @@
                      style="width: 0%; background-color:#A2C4EC;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -508,10 +472,10 @@
                      style="width: 0%; background-color:darkgrey;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -521,23 +485,23 @@
                      style="width: 0%; background-color:#EEE098;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
-                     style="width: 50%; background-color:#f8001f;"
-                     aria-valuenow="1"
+                     style="width: 0%; background-color:#f8001f;"
+                     aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -547,10 +511,10 @@
                      style="width: 0%; background-color:darkorange;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -560,389 +524,11 @@
                      style="width: 0%; background-color:fuchsia;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-            </td>
-
-        </tr>
-
-
-        <tr>
-
-
-            <td> 
-                <a href="b84230ffd54dc1f5ad7b59bde80216fc23a7e65dda0e0f26161b63ed8abc6c0f.html">Testing</a></span>
-            </td>
-            <td> 
-                
-            </td>
-            <td>2</td>
-            <td>0</td>
-            <td>
-                <span class="status_icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></span>
-                <span style="display:none">3</span>
-            </td>
-
-            <td width="165px">
-
-
-<table>
-    <tr>
-        <td width="40px" style="padding-top:4px;">
-            <div class="small" style="text-align:right;">50%</div>
-        </td>
-        <td style="min-width:12.5em;">
-            <div class="progress">
-                <div class="progress-bar" role="progressbar"
-                     style="width: 50%; background-color:#30cb23;"
-                     aria-valuenow="1"
-                     aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:#A2C4EC;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:darkgrey;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:#EEE098;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 50%; background-color:#f8001f;"
-                     aria-valuenow="1"
-                     aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:darkorange;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:fuchsia;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="2"
-                     title="  - Total tests: 2
-  - Passing tests: 1 (50%)
-  - Failing tests: 1 (50%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-            </td>
-
-        </tr>
-
-
-        <tr>
-
-
-            <td> 
-                <a href="519d52c76ff225a447231c2b75701509c257495aac9339e14bdab8039dc8ec5b.html">Testing Create Album</a></span>
-            </td>
-            <td> 
-                
-            </td>
-            <td>5</td>
-            <td>0</td>
-            <td>
-                <span class="status_icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></span>
-                <span style="display:none">3</span>
-            </td>
-
-            <td width="165px">
-
-
-<table>
-    <tr>
-        <td width="40px" style="padding-top:4px;">
-            <div class="small" style="text-align:right;">20%</div>
-        </td>
-        <td style="min-width:12.5em;">
-            <div class="progress">
-                <div class="progress-bar" role="progressbar"
-                     style="width: 20%; background-color:#30cb23;"
-                     aria-valuenow="1"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 1 (20%)
-  - Failing tests: 4 (80%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:#A2C4EC;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 1 (20%)
-  - Failing tests: 4 (80%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:darkgrey;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 1 (20%)
-  - Failing tests: 4 (80%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:#EEE098;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 1 (20%)
-  - Failing tests: 4 (80%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 80%; background-color:#f8001f;"
-                     aria-valuenow="4"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 1 (20%)
-  - Failing tests: 4 (80%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:darkorange;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 1 (20%)
-  - Failing tests: 4 (80%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:fuchsia;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 1 (20%)
-  - Failing tests: 4 (80%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-            </td>
-
-        </tr>
-
-
-        <tr>
-
-
-            <td> 
-                <a href="99cb04b5596c25aab22402fee9eced0cdfd242ebb539662c26aeda31878d55f4.html">Put update albums</a></span>
-            </td>
-            <td> 
-                
-            </td>
-            <td>5</td>
-            <td>0</td>
-            <td>
-                <span class="status_icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a></span>
-                <span style="display:none">4</span>
-            </td>
-
-            <td width="165px">
-
-
-<table>
-    <tr>
-        <td width="40px" style="padding-top:4px;">
-            <div class="small" style="text-align:right;">40%</div>
-        </td>
-        <td style="min-width:12.5em;">
-            <div class="progress">
-                <div class="progress-bar" role="progressbar"
-                     style="width: 40%; background-color:#30cb23;"
-                     aria-valuenow="2"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 2 (40%)
-  - Failing tests: 2 (40%)
-  - Tests with errors: 1 (20%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:#A2C4EC;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 2 (40%)
-  - Failing tests: 2 (40%)
-  - Tests with errors: 1 (20%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:darkgrey;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 2 (40%)
-  - Failing tests: 2 (40%)
-  - Tests with errors: 1 (20%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:#EEE098;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 2 (40%)
-  - Failing tests: 2 (40%)
-  - Tests with errors: 1 (20%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 40%; background-color:#f8001f;"
-                     aria-valuenow="2"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 2 (40%)
-  - Failing tests: 2 (40%)
-  - Tests with errors: 1 (20%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 20%; background-color:darkorange;"
-                     aria-valuenow="1"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 2 (40%)
-  - Failing tests: 2 (40%)
-  - Tests with errors: 1 (20%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                </div>
-                <div class="progress-bar" role="progressbar"
-                     style="width: 0%; background-color:fuchsia;"
-                     aria-valuenow="0"
-                     aria-valuemin="0"
-                     aria-valuemax="5"
-                     title="  - Total tests: 5
-  - Passing tests: 2 (40%)
-  - Failing tests: 2 (40%)
-  - Tests with errors: 1 (20%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
@@ -966,234 +552,7 @@
                                                 <div class="col-sm-12">
                                                     <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
-                                                        <table class="scenario-result-table table"
-                                                               id="scenario-results">
-                                                            <thead>
-                                                            <tr>
-                                                                    <th>feature</th>
-                                                                <th class="test-name-column">Scenario</th>
-                                                                <th>Steps</th>
-                                                                <th>Started</th>
-                                                                <th>Duration</th>
-                                                                <th>Result</th>
-                                                            </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr class="scenario-result SUCCESS">
-                                                                        <td>
-                                                                                <a href="ce6b9fa93bc308cb5403a11b3d69aa2aaf2d449b9e1100821dbcba7466879c92.html">Delete album</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="54880c8c0f07841d94a87c62e938b1e9f205db82b696c58b22ef521faf18d52a.html">Delete users with valid id</a>
-                                                                            (1 example)
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:43:56</td>
-                                                                    <td>17s 023ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                style="display:none">SUCCESS</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                        <td>
-                                                                                <a href="ce6b9fa93bc308cb5403a11b3d69aa2aaf2d449b9e1100821dbcba7466879c92.html">Delete album</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="73dd465e89f1d8a2e62ee5c881bab88475bd22efcfe1f77edf5f4aee0547f4eb.html">Delete users with invalid id</a>
-                                                                            (1 example)
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:13</td>
-                                                                    <td>1s 568ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result SUCCESS">
-                                                                        <td>
-                                                                                <a href="b84230ffd54dc1f5ad7b59bde80216fc23a7e65dda0e0f26161b63ed8abc6c0f.html">Testing</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="87b9ed0068c848089ec03bfb1b7595b5f04ad3a0686128d482c42dc57cc9b563.html">Get album with valid parameter</a>
-                                                                    </td>
-                                                                    <td>4</td>
-                                                                    <td>01:44:15</td>
-                                                                    <td>13s 937ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                style="display:none">SUCCESS</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                        <td>
-                                                                                <a href="b84230ffd54dc1f5ad7b59bde80216fc23a7e65dda0e0f26161b63ed8abc6c0f.html">Testing</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="2286488b306424b3dd1d421aef7d1ac49af1a02516bac193fcbc29fba60fbdee.html">Get album with invalid parameter</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:29</td>
-                                                                    <td>437ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result SUCCESS">
-                                                                        <td>
-                                                                                <a href="519d52c76ff225a447231c2b75701509c257495aac9339e14bdab8039dc8ec5b.html">Testing Create Album</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="3515392d24e11577db5c6e26fc8dbbf236535d2e1bf71f9549f5b059245461f8.html">Post create album with valid json</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:29</td>
-                                                                    <td>1s 041ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                style="display:none">SUCCESS</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                        <td>
-                                                                                <a href="519d52c76ff225a447231c2b75701509c257495aac9339e14bdab8039dc8ec5b.html">Testing Create Album</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="28c26124735a7e289ba602395f138ceb5adb03cf1d6a6c9fe9948b176c4f6fdc.html">Post create album with invalid json</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:31</td>
-                                                                    <td>743ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                        <td>
-                                                                                <a href="519d52c76ff225a447231c2b75701509c257495aac9339e14bdab8039dc8ec5b.html">Testing Create Album</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="7ce3c045ae497ce8bacd53e6594639804609e8f7d15f33ef17353ba0cf3053fc.html">Post create album with same body json</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:31</td>
-                                                                    <td>1s 033ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                        <td>
-                                                                                <a href="519d52c76ff225a447231c2b75701509c257495aac9339e14bdab8039dc8ec5b.html">Testing Create Album</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="366bbf0d296a3fc239a75fccd12ae5284621a6c2040497f35c5c0a5ebcc77c7e.html">Post create album with blank body json</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:32</td>
-                                                                    <td>1s 668ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                        <td>
-                                                                                <a href="519d52c76ff225a447231c2b75701509c257495aac9339e14bdab8039dc8ec5b.html">Testing Create Album</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="53c7e43bc37aeaf6c2a3915c3e92865b858716af25db455bc4015007468a72d0.html">Post create album with extra body json</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:34</td>
-                                                                    <td>1s 690ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result SUCCESS">
-                                                                        <td>
-                                                                                <a href="99cb04b5596c25aab22402fee9eced0cdfd242ebb539662c26aeda31878d55f4.html">Put update albums</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="2d31cee359b55e53ab21be71b85839257592fdd1e76e2dd5c39d37abeb5d69cf.html">Put update album with valid parameter</a>
-                                                                    </td>
-                                                                    <td>4</td>
-                                                                    <td>01:44:36</td>
-                                                                    <td>10s 303ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                style="display:none">SUCCESS</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                        <td>
-                                                                                <a href="99cb04b5596c25aab22402fee9eced0cdfd242ebb539662c26aeda31878d55f4.html">Put update albums</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="a884f22cf6103ee74f2a27d551ae3602fff6fa6177b5711b65aab32fef1be67d.html">Put update album with invalid parameter request</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:46</td>
-                                                                    <td>939ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result FAILURE">
-                                                                        <td>
-                                                                                <a href="99cb04b5596c25aab22402fee9eced0cdfd242ebb539662c26aeda31878d55f4.html">Put update albums</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="b964857b0ee44501c533425b0c2222e2e598bb42ef21df68c9335da2e8f62f99.html">Put update album with blank body</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:47</td>
-                                                                    <td>779ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                                style="display:none">FAILURE</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result ERROR">
-                                                                        <td>
-                                                                                <a href="99cb04b5596c25aab22402fee9eced0cdfd242ebb539662c26aeda31878d55f4.html">Put update albums</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="a1a60487c5a14d963234d8982bdb45bb8a6dca6e5f2ae04ec5ec5505e99495d5.html">Put update album with extra body json</a>
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:48</td>
-                                                                    <td>163ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                                style="display:none">ERROR</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result SUCCESS">
-                                                                        <td>
-                                                                                <a href="99cb04b5596c25aab22402fee9eced0cdfd242ebb539662c26aeda31878d55f4.html">Put update albums</a>
-                                                                        </td>
-                                                                    <td>
-                                                                            <a href="4d6da79bace016d0098627d3677743ab57e3c36cb043d0b1b861aca0471092dd.html">Put update album with unregister body json</a>
-                                                                            (1 example)
-                                                                    </td>
-                                                                    <td>3</td>
-                                                                    <td>01:44:48</td>
-                                                                    <td>3s 679ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                                style="display:none">SUCCESS</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
+                                                        No automated tests were executed
 
                                                 </div>
                                             </div>

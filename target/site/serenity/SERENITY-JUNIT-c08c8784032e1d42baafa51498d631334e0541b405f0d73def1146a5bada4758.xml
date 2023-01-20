@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Testing GET todos JsonPlaceHolder API" skipped="0" tests="6" time="5.34" timestamp="2023-01-20 12:04:41"><testcase name="GET todos with modified id should succes then return 200 response code"/><testcase name="GET todos with id 1 and get respon body page with id 1 should succes then return 200 response code"><failure message="1 expectation failed.&#10;JSON path id doesn't match.&#10;Expected: &lt;1&gt;&#10;  Actual: &lt;[1]&gt;&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path id doesn't match.
+Expected: &lt;1&gt;
+  Actual: &lt;[1]&gt;
+</failure><system-err>1 expectation failed.
+JSON path id doesn't match.
+Expected: &lt;1&gt;
+  Actual: &lt;[1]&gt;
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+starter.JsonPlaceHolder.Todos.GetTodosStepDef.responseBodyPageShouldBeId(GetTodosStepDef.java:50)&#13;
+✽.Response body page should be id 1(classpath:features/JsonPlaceHolder/Todos/GetTodos.feature:18)&#13;
+</system-err></testcase><testcase name="GET todos with modified id out of range should failed then return 404 response code"/><testcase name="Get todos with invalid parameter id as string should failed then return 400 response code"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+starter.JsonPlaceHolder.Todos.GetTodosStepDef.shouldReturnStatusCodeBadRequest(GetTodosStepDef.java:73)&#13;
+✽.Should return status code 400 Bad Request(classpath:features/JsonPlaceHolder/Todos/GetTodos.feature:35)&#13;
+</system-err></testcase><testcase name="GET todos with modified parameter should succes then return 200 response code"/><testcase name="Get todos with invalid id as string should failed then return 404 response code"/></testsuite>

@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing Delete Todos JsonPlaceHolder API","Delete todos with valid id should success then return 200 response code","SUCCESS","2023-01-20T00:04:35.835+07:00[Asia/Bangkok]","0.0","3.92"
+"Testing GET todos JsonPlaceHolder API","GET todos with modified id should succes then return 200 response code","SUCCESS","2023-01-20T00:04:41.312+07:00[Asia/Bangkok]","0.0","1.15"
+"Testing GET todos JsonPlaceHolder API","GET todos with modified parameter should succes then return 200 response code","SUCCESS","2023-01-20T00:04:45.236+07:00[Asia/Bangkok]","0.0","0.68"
+"Testing POST Todos JsonPlaceHolder API","POST todos with valid input body should succes then return 201 response code","SUCCESS","2023-01-20T00:04:46.694+07:00[Asia/Bangkok]","0.0","0.81"
+"Testing PUT Todos JsonPlaceHolder API","Put update user with valid json should success then return 200 response code","SUCCESS","2023-01-20T00:04:50.37+07:00[Asia/Bangkok]","0.0","0.82"

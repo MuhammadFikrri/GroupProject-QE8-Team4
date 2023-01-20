@@ -12,7 +12,7 @@ public class Constant
     public static String PHOTOS_JSON_REQUEST = DIR+"/src/test/resources/JSON/Request/Photos";
 
     public static String TODO_JSON_SCHEMA = DIR+"/src/test/resources/JSON/JsonSchema/Todos";
-    public static String POSTS_JSON_SCHEMA = DIR+"/src/test/resources/JSON/JsonSchema/Posts";
+    public static String POSTS_JSON_SCHEMA = DIR+"/src/test/resources/JSON/JsonSchema/Posts)";
     public static String COMMENTS_JSON_SCHEMA = DIR+"/src/test/resources/JSON/JsonSchema/Comments";
     public static String ALBUMS_JSON_SCHEMA = DIR+"/src/test/resources/JSON/JsonSchema/Albums";
     public static String PHOTOS_JSON_SCHEMA = DIR+"/src/test/resources/JSON/JsonSchema/Photos";
