@@ -1,6 +1,6 @@
 # GroupProject-QE8-Team4 Alterra Academy
 
-## API Automation testing web https://jsonplaceholder.typicode.com/ 
+## API Automation testing for web https://jsonplaceholder.typicode.com/ 
 
 ## Pembagian resource untuk API Automation
     > Binta Wira                =>  Comments
